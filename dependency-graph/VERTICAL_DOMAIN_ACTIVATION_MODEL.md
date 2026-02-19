@@ -127,3 +127,9 @@ Vertical activation does not override the full biological stack completion crite
 
 This document is constitutionally binding upon signature.
 """
+
+---
+
+## SECTION XII — PRIMITIVE INTEGRATION DISCIPLINE COMPLIANCE
+
+All activated domains must comply with the primitive integration discipline defined in `ORGANELLE_CATEGORY_DEPENDENCY_GLOBAL_MAP.md`. This includes the mandatory use of CI, EI, and IN categories for their designated purposes. Domain Activation Token issuance requires full integration coverage completeness, and Pre-Generation completeness includes the presence of CI, EI, and IN archetypes.

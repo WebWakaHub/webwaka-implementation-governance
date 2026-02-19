@@ -110,3 +110,9 @@ This document authorizes registry creation and tracking only. It does not author
 
 This document is constitutionally binding.
 """
+
+---
+
+## SECTION IX — PRIMITIVE INTEGRATION DISCIPLINE COMPLIANCE
+
+All domains must comply with the primitive integration discipline defined in `ORGANELLE_CATEGORY_DEPENDENCY_GLOBAL_MAP.md`. This includes the mandatory use of CI, EI, and IN categories for their designated purposes. Domain Activation Token issuance requires full integration coverage completeness, and Pre-Generation completeness includes the presence of CI, EI, and IN archetypes.

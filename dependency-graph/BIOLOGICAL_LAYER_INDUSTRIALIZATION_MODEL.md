@@ -180,3 +180,9 @@ Program completion is achieved only when:
 | **Date** | 2026-02-19 |
 
 This document is constitutionally binding on all agents and all layers of the WebWaka Biological Architecture.
+
+---
+
+## SECTION XIII — PRIMITIVE INTEGRATION DISCIPLINE COMPLIANCE
+
+All layers must comply with the primitive integration discipline defined in `ORGANELLE_CATEGORY_DEPENDENCY_GLOBAL_MAP.md`. This includes the mandatory use of CI, EI, and IN categories for their designated purposes. Domain Activation Token issuance requires full integration coverage completeness, and Pre-Generation completeness includes the presence of CI, EI, and IN archetypes.
