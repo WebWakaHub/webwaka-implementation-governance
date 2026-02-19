@@ -7,7 +7,7 @@
 - **Number:** IMP-ST1-02
 - **State:** proposed
 - **Date:** 2026-02-18
-- **Last Updated:** 2026-02-18
+- **Last Updated:** 2026-02-19
 
 ---
 
@@ -110,10 +110,10 @@ Global Organelle Completion = (Completed Organelle Implementations ÷ Total Orga
 
 ### Current Global Status
 
-**As of 2026-02-18:**
-- **Total Organelles Tracked:** 1
+**As of 2026-02-19:**
+- **Total Organelles Tracked:** 5
 - **Completed Organelles (Ratified):** 0
-- **In Progress:** 1
+- **In Progress:** 5
 - **Global Organelle Completion:** 0%
 
 ---
@@ -156,7 +156,11 @@ The Master Tracking Table is the core of this document. It contains one row per 
 
 | Organelle Code | Organelle Name | Category | Version | Current Phase | Current State | Responsible Agent | Dependency Status | Parallelization Eligibility | Blocked | Last Updated | Master Issue Link | Phase Issue Link |
 |----------------|----------------|----------|---------|---------------|---------------|-------------------|-------------------|----------------------------|---------|--------------|-------------------|------------------|
-| ORG-IA-SUBJECT_REGISTRY-v0.1.0 | Subject Registry Organelle | Identity & Access | v0.1.0 | 2 | proposed | webwakaagent5 | None | Yes | No | 2026-02-18 | [TBD] | [TBD] |
+| ORG-IA-SUBJECT_REGISTRY-v0.1.0 | Subject Registry Organelle | Identity & Access | v0.1.0 | 0 | proposed | webwakaagent3 | None | Yes | No | 2026-02-19 | [#1](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/1) | [#2](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/2) |
+| ORG-TB-BOUNDARY_CONTEXT-v0.1.0 | Boundary Context Organelle | Tenancy & Boundary | v0.1.0 | 0 | proposed | webwakaagent3 | None | Yes | No | 2026-02-19 | [#30](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/30) | [#31](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/31) |
+| ORG-DP-RECORD_STORE-v0.1.0 | Record Store Organelle | Data & Persistence | v0.1.0 | 0 | proposed | webwakaagent3 | None | Yes | No | 2026-02-19 | [#59](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/59) | [#60](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/60) |
+| ORG-CP-POLICY_DEFINITION-v0.1.0 | Policy Definition Organelle | Configuration & Policy | v0.1.0 | 0 | proposed | webwakaagent3 | None | Yes | No | 2026-02-19 | [#88](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/88) | [#89](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/89) |
+| ORG-ST-TRUST_ASSERTION-v0.1.0 | Trust Assertion Organelle | Security & Trust | v0.1.0 | 0 | proposed | webwakaagent3 | None | Yes | No | 2026-02-19 | [#117](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/117) | [#118](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/118) |
 
 ### Entry Details
 
@@ -171,7 +175,7 @@ The Master Tracking Table is the core of this document. It contains one row per 
 - **Dependency Status:** None
 - **Parallelization Eligibility:** Yes (no dependencies)
 - **Blocked:** No
-- **Last Updated:** 2026-02-18
+- **Last Updated:** 2026-02-19
 - **Phase Completion Score:** 28.57% (2 of 7 phases complete)
 
 **Completed Phases:**
