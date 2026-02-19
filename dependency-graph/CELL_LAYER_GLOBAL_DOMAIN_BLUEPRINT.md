@@ -31,6 +31,9 @@ No Domain Structure Map may define Cell structures outside this blueprint.
 | Monitoring Cell | CEL-MONITOR-v0.1.0 | OD, TS | TIS-MONITOR | All | None | This cell must not alter the behavior of the components it monitors. |
 | Identity Resolution Cell | CEL-IDRESOLVE-v0.1.0 | IA, TB | TIS-CMDCOORD, TIS-STATEAGG | All | None | This cell must not manage user identity, only resolve it. |
 | Access Control Cell | CEL-ACCESSCTRL-v0.1.0 | ST, CP | TIS-POLICY | All | None | This cell must not define access policies, only enforce them. |
+| Communication Gateway Cell | CEL-CIGATEWAY-v0.1.0 | CI | TIS-EVENT, TIS-WORKFLOW | All | None | This cell must preserve domain neutrality and not contain business semantics. |
+| External Adapter Cell | CEL-EXTADAPTER-v0.1.0 | EI, IA, ST, CP | TIS-EVENT, TIS-WORKFLOW | All | None | This cell must not have direct domain coupling or embedded protocol semantics. |
+| Telemetry & Instrumentation Cell | CEL-TELEMETRY-v0.1.0 | IN | TIS-MONITOR | All | None | This cell must only provide structural metrics, not business KPIs. |
 
 ---
 
@@ -40,12 +43,12 @@ No Domain Structure Map may define Cell structures outside this blueprint.
 |---|---|
 | TIS-CMDCOORD | CEL-CMDPROCESS, CEL-IDRESOLVE, CEL-VALIDATEEXEC |
 | TIS-STATEAGG | CEL-STATESTORE, CEL-AGGREGATE, CEL-IDRESOLVE |
-| TIS-WORKFLOW | CEL-CMDPROCESS, CEL-STATESTORE, CEL-EVENTDISPATCH |
+| TIS-WORKFLOW | CEL-CMDPROCESS, CEL-STATESTORE, CEL-EVENTDISPATCH, CEL-CIGATEWAY |
 | TIS-POLICY | CEL-POLICYEVAL, CEL-ACCESSCTRL |
-| TIS-EVENT | CEL-EVENTDISPATCH |
+| TIS-EVENT | CEL-EVENTDISPATCH, CEL-CIGATEWAY |
 | TIS-VALIDATE | CEL-VALIDATEEXEC |
 | TIS-RESOURCE | CEL-RESOURCEREG |
-| TIS-MONITOR | CEL-MONITOR |
+| TIS-MONITOR | CEL-MONITOR, CEL-TELEMETRY |
 
 ---
 
@@ -75,7 +78,7 @@ No Domain Structure Map may define Cell structures outside this blueprint.
 | DP | CEL-CMDPROCESS, CEL-STATESTORE, CEL-AGGREGATE | Medium |
 | ES | CEL-RESOURCEREG | Low |
 | WO | CEL-RESOURCEREG | Low |
-| CI | None | High |
+| CI | CEL-CIGATEWAY | Low |
 | FV | CEL-VALIDATEEXEC | Low |
 | RA | CEL-VALIDATEEXEC | Low |
 | CP | CEL-CMDPROCESS, CEL-POLICYEVAL, CEL-ACCESSCTRL | Medium |
@@ -86,8 +89,8 @@ No Domain Structure Map may define Cell structures outside this blueprint.
 | RG | CEL-STATESTORE | Low |
 | TS | CEL-MONITOR | Low |
 | LG | CEL-EVENTDISPATCH | Low |
-| IN | None | High |
-| EI | None | High |
+| IN | CEL-TELEMETRY | Low |
+| EI | CEL-EXTADAPTER | Low |
 
 ---
 

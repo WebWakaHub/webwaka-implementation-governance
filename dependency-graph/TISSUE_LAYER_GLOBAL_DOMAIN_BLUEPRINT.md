@@ -23,12 +23,12 @@ No Domain Structure Map may define Tissue structures outside this blueprint.
 |---|---|---|---|---|---|---|
 | Command Coordination Tissue | TIS-CMDCOORD-v0.1.0 | Coordinates command execution across multiple cells | CEL-COMMAND, CEL-VALIDATION, CEL-RESPONSE | All | None | This tissue must not alter the semantics of the commands it coordinates. |
 | State Aggregation Tissue | TIS-STATEAGG-v0.1.0 | Aggregates state from multiple cells into a consistent view | CEL-STATE, CEL-QUERY | All | None | This tissue must not modify the state of the cells it aggregates. |
-| Workflow Orchestration Tissue | TIS-WORKFLOW-v0.1.0 | Orchestrates a sequence of operations across multiple cells | CEL-STEP, CEL-TRANSITION, CEL-COMPENSATION | All | None | This tissue must not embed business logic within its orchestration steps. |
+| Workflow Orchestration Tissue | TIS-WORKFLOW-v0.1.0 | Orchestrates a sequence of operations across multiple cells | CEL-STEP, CEL-TRANSITION, CEL-COMPENSATION, CEL-CIGATEWAY | All | None | This tissue must not embed business logic within its orchestration steps. |
 | Policy Enforcement Tissue | TIS-POLICY-v0.1.0 | Enforces policies by coordinating validation and action cells | CEL-POLICY, CEL-VALIDATION, CEL-ACTION | All | None | This tissue must not define policies, only enforce them. |
-| Event Propagation Tissue | TIS-EVENT-v0.1.0 | Propagates events between cells and to other tissues | CEL-EVENTSOURCE, CEL-EVENTLISTENER | All | None | This tissue must not modify the content of the events it propagates. |
+| Event Propagation Tissue | TIS-EVENT-v0.1.0 | Propagates events between cells and to other tissues | CEL-EVENTSOURCE, CEL-EVENTLISTENER, CEL-CIGATEWAY | All | None | This tissue must not modify the content of the events it propagates. |
 | Validation Coordination Tissue | TIS-VALIDATE-v0.1.0 | Coordinates validation rules across multiple cells | CEL-VALIDATION, CEL-RULE | All | None | This tissue must not define validation rules, only coordinate their execution. |
 | Resource Allocation Tissue | TIS-RESOURCE-v0.1.0 | Allocates and deallocates resources across multiple cells | CEL-RESOURCE, CEL-ALLOCATION | All | None | This tissue must not manage the lifecycle of the resources it allocates. |
-| Monitoring & Feedback Tissue | TIS-MONITOR-v0.1.0 | Monitors cell activity and provides feedback | CEL-METRIC, CEL-ALERT, CEL-FEEDBACK | All | None | This tissue must not alter the behavior of the cells it monitors. |
+| Monitoring & Feedback Tissue | TIS-MONITOR-v0.1.0 | Monitors cell activity and provides feedback | CEL-METRIC, CEL-ALERT, CEL-FEEDBACK, CEL-TELEMETRY | All | None | This tissue must not alter the behavior of the cells it monitors. |
 
 ---
 
@@ -53,7 +53,7 @@ No Domain Structure Map may define Tissue structures outside this blueprint.
 |---|---|---|---|
 | TIS-CMDCOORD | All | Low | The pattern is generic and does not contain business logic. |
 | TIS-STATEAGG | All | Low | The pattern is generic and does not contain business logic. |
-| TIS-WORKFLOW | All | Medium | Workflows must be defined in the Organ layer to avoid semantic drift. |
+| TIS-WORKFLOW | All | Medium | Workflows must be defined in the Organ layer to avoid semantic drift. The use of CEL-CIGATEWAY must be strictly for cross-domain communication, not business logic. |
 | TIS-POLICY | All | Low | The pattern is generic and does not contain business logic. |
 | TIS-EVENT | All | Low | The pattern is generic and does not contain business logic. |
 | TIS-VALIDATE | All | Low | The pattern is generic and does not contain business logic. |
