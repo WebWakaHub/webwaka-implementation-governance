@@ -111,9 +111,10 @@ Global Organelle Completion = (Completed Organelle Implementations ÷ Total Orga
 ### Current Global Status
 
 **As of 2026-02-19:**
-- **Total Organelles Tracked:** 5
+- **Total Organelles Tracked:** 18
 - **Completed Organelles (Ratified):** 0
-- **In Progress:** 5
+- **In Progress (Active):** 5
+- **Dormant (H1 Generated):** 13
 - **Global Organelle Completion:** 0%
 
 ---
@@ -161,6 +162,19 @@ The Master Tracking Table is the core of this document. It contains one row per 
 | ORG-DP-RECORD_STORE-v0.1.0 | Record Store Organelle | Data & Persistence | v0.1.0 | 0 | proposed | webwakaagent3 | None | Yes | No | 2026-02-19 | [#59](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/59) | [#60](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/60) |
 | ORG-CP-POLICY_DEFINITION-v0.1.0 | Policy Definition Organelle | Configuration & Policy | v0.1.0 | 0 | proposed | webwakaagent3 | None | Yes | No | 2026-02-19 | [#88](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/88) | [#89](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/89) |
 | ORG-ST-TRUST_ASSERTION-v0.1.0 | Trust Assertion Organelle | Security & Trust | v0.1.0 | 0 | proposed | webwakaagent3 | None | Yes | No | 2026-02-19 | [#117](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/117) | [#118](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/118) |
+| ORG-ES-SCHEDULER_EXECUTOR-v0.1.0 | Scheduler Executor Organelle | Execution & Scheduling | v0.1.0 | 0 | dormant | (none) | TBD | Yes | No | 2026-02-19 | [#146](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/146) | [#147](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/147) |
+| ORG-WO-WORKFLOW_ORCHESTRATOR-v0.1.0 | Workflow Orchestrator Organelle | Workflow & Orchestration | v0.1.0 | 0 | dormant | (none) | TBD | Yes | No | 2026-02-19 | [#175](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/175) | [#176](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/176) |
+| ORG-CI-MESSAGE_GATEWAY-v0.1.0 | Message Gateway Organelle | Communication & Integration | v0.1.0 | 0 | dormant | (none) | TBD | Yes | No | 2026-02-19 | [#204](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/204) | [#205](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/205) |
+| ORG-FV-VALIDATION_ENGINE-v0.1.0 | Validation Engine Organelle | Function & Validation | v0.1.0 | 0 | dormant | (none) | TBD | Yes | No | 2026-02-19 | [#233](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/233) | [#234](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/234) |
+| ORG-RA-RESOURCE_ALLOCATOR-v0.1.0 | Resource Allocator Organelle | Resource & Asset | v0.1.0 | 0 | dormant | (none) | TBD | Yes | No | 2026-02-19 | [#262](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/262) | [#263](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/263) |
+| ORG-EM-EVENT_DISPATCHER-v0.1.0 | Event Dispatcher Organelle | Event & Messaging | v0.1.0 | 0 | dormant | (none) | TBD | Yes | No | 2026-02-19 | [#291](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/291) | [#292](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/292) |
+| ORG-OD-DISCOVERY_REGISTRY-v0.1.0 | Discovery Registry Organelle | Observation & Discovery | v0.1.0 | 0 | dormant | (none) | TBD | Yes | No | 2026-02-19 | [#320](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/320) | [#321](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/321) |
+| ORG-CM-COMPOSITION_MODELER-v0.1.0 | Composition Modeler Organelle | Composition & Modeling | v0.1.0 | 0 | dormant | (none) | TBD | Yes | No | 2026-02-19 | [#349](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/349) | [#350](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/350) |
+| ORG-RG-GOVERNANCE_REGISTRY-v0.1.0 | Governance Registry Organelle | Registry & Governance | v0.1.0 | 0 | dormant | (none) | TBD | Yes | No | 2026-02-19 | [#378](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/378) | [#379](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/379) |
+| ORG-TS-TELEMETRY_COLLECTOR-v0.1.0 | Telemetry Collector Organelle | Telemetry & Signals | v0.1.0 | 0 | dormant | (none) | TBD | Yes | No | 2026-02-19 | [#407](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/407) | [#408](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/408) |
+| ORG-LG-AUDIT_LOGGER-v0.1.0 | Audit Logger Organelle | Logging & Auditing | v0.1.0 | 0 | dormant | (none) | TBD | Yes | No | 2026-02-19 | [#436](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/436) | [#437](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/437) |
+| ORG-IN-INSTRUMENTATION_PROBE-v0.1.0 | Instrumentation Probe Organelle | Instrumentation | v0.1.0 | 0 | dormant | (none) | TBD | Yes | No | 2026-02-19 | [#465](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/465) | [#466](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/466) |
+| ORG-EI-EXTERNAL_ADAPTER-v0.1.0 | External Adapter Organelle | External Integration | v0.1.0 | 0 | dormant | (none) | TBD | Yes | No | 2026-02-19 | [#494](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/494) | [#495](https://github.com/WebWakaHub/webwaka-organelle-universe/issues/495) |
 
 ### Entry Details
 
@@ -201,6 +215,7 @@ All Organelle implementations must use one of the following standardized status 
 
 | Status Code | Description | Allowed Transitions |
 |-------------|-------------|---------------------|
+| **dormant** | Organelle issue tree generated but not activated for execution | → proposed (upon activation) |
 | **proposed** | Organelle has been proposed and is awaiting approval | → approved, blocked, frozen |
 | **approved** | Organelle has been approved and is ready to begin | → in-progress, blocked, frozen |
 | **in-progress** | Work is actively underway on the current phase | → awaiting-verification, blocked, frozen |
