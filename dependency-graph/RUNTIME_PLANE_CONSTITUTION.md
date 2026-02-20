@@ -466,16 +466,60 @@ All constitutional violations must be escalated to **webwaka007 (Founder)** for 
 
 The Runtime Plane MUST support integration with the **Federation Plane** as defined in **PLATFORM_FEDERATION_CONSTITUTION.md**.
 
-### Instance Metadata Interface
+### Runtime Version Binding Discipline
 
-The Runtime Plane MUST expose a secure interface that provides:
+The Runtime Plane MUST enforce version governance as defined in **VERSION_EVOLUTION_AND_PATCH_GOVERNANCE_MODEL.md**.
+
+### Version Metadata Exposure
+
+The Runtime Plane MUST expose comprehensive version metadata:
 
 - **Instance ID** — Globally unique instance identifier
-- **Version Metadata** — Current platform version across all layers
-- **Active Domains** — List of activated domain modules
+- **Organism Version** — Current global platform version (MAJOR.MINOR.PATCH)
 - **Runtime Version** — Current Runtime Plane version
+- **System Versions** — Versions of all activated System layer structures
+- **Organ Versions** — Versions of all activated Organ layer structures
+- **Active Domains** — List of activated domain modules with versions
 - **Subscription Tier** — Current entitlement tier
 - **Compliance Status** — Current lifecycle state
+- **Last Update Timestamp** — Timestamp of last successful update
+- **Pending Updates** — List of queued updates awaiting deployment
+
+### Compatibility Validation Before Binding
+
+The Runtime Plane MUST validate compatibility before binding any update:
+
+1. **Signature Verification** — Verify cryptographic signature on update package
+2. **Version Compatibility Check** — Validate against compatibility matrix
+3. **Dependency Resolution** — Ensure all dependencies are satisfied
+4. **Rollback Checkpoint** — Create rollback checkpoint before binding
+5. **Update Binding** — Apply update to runtime structures
+6. **Integrity Verification** — Validate runtime integrity post-update
+7. **Compliance Reporting** — Report success/failure to Federation Plane
+8. **Rollback on Failure** — Revert to checkpoint if verification fails
+
+### Patch Classification Enforcement
+
+The Runtime Plane MUST enforce patch classification rules:
+
+- **Security Patches** — Mandatory deployment within 24 hours
+- **Stability Patches** — Recommended deployment within 7 days
+- **Feature Patches** — Optional deployment with entitlement validation
+- **Compatibility Patches** — Recommended deployment within 14 days
+- **Infrastructure Patches** — Runtime authority determines schedule
+
+### Upgrade Sequencing Enforcement
+
+The Runtime Plane MUST enforce sequential upgrade rules:
+
+- **No version skipping** — Major versions must be applied sequentially
+- **Migration window compliance** — 90-day window for major version transitions
+- **Forced security override** — Security patches override sequencing rules
+- **Staged rollout participation** — Canary, Beta, General Availability phases
+
+### Instance Metadata Interface
+
+The Runtime Plane MUST expose a secure interface that provides version metadata:
 
 This interface MUST:
 
@@ -488,10 +532,10 @@ This interface MUST:
 
 The Runtime Plane MUST support ingestion of signed updates from the Federation Plane:
 
-- Verify cryptographic signatures on all updates
-- Validate version compatibility before binding
-- Support rollback mechanism for failed updates
-- Log all update operations for audit
+- **Signature Verification** — Ed25519 or RSA-4096 cryptographic signatures
+- **Version Compatibility Validation** — Against compatibility matrix
+- **Rollback Mechanism** — Within defined rollback windows (7/14/30 days)
+- **Audit Logging** — All update operations logged for compliance
 
 ### Remote Compliance Verification
 

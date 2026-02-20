@@ -144,16 +144,43 @@ Additional tracking requirements for the Organism Layer include:
 
 The Organism Layer governs cross-instance evolution through integration with the **Federation Plane** as defined in **PLATFORM_FEDERATION_CONSTITUTION.md**.
 
-### Version Authority
+### Version Authority Clause
+
+The Organism Layer retains **exclusive constitutional authority** to define version semantics for the entire WebWaka platform, as established in **VERSION_EVOLUTION_AND_PATCH_GOVERNANCE_MODEL.md**.
+
+### Version Definition Authority
 
 The Organism Layer defines:
 
-- **Global platform version** — Semantic version for the entire biological stack
+- **Global platform version** — Semantic version for the entire biological stack (MAJOR.MINOR.PATCH)
 - **Version roadmap** — Evolution strategy and release schedule
-- **Compatibility matrix** — Cross-layer version dependencies
+- **Compatibility matrix** — Cross-layer version dependencies and compatibility windows
 - **Migration paths** — Upgrade sequences for major version transitions
+- **Deprecation lifecycle** — Feature sunset schedule and migration assistance
+- **Patch classification** — Security, stability, feature, compatibility, and infrastructure patches
 
-**Invariant:** The Organism Layer retains exclusive authority to define version semantics.
+**Invariant:** The Organism Layer retains exclusive authority to define version semantics. Federation Plane executes propagation only.
+
+### Version Inheritance Discipline
+
+All lower layers inherit version discipline from the Organism Layer:
+
+- **System Layer** — Inherits major and minor version from Organism
+- **Organ Layer** — Inherits version compatibility requirements
+- **Tissue Layer** — Inherits semantic versioning discipline
+- **Cell Layer** — Inherits backward compatibility rules
+- **Organelle Layer** — Inherits patch classification model
+- **Runtime Plane** — Inherits compatibility matrix enforcement
+
+### Version Evolution Governance
+
+The Organism Layer governs version evolution through:
+
+- **Semantic versioning enforcement** — MAJOR.MINOR.PATCH discipline
+- **Breaking change governance** — Major version increments for breaking changes
+- **Backward compatibility windows** — 90-day migration windows for major versions
+- **Security patch authority** — Mandatory 24-hour deployment for critical patches
+- **Deprecation notice periods** — 30/90/180 days based on feature criticality
 
 ### Cross-Instance Propagation
 

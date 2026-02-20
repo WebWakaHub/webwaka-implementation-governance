@@ -476,7 +476,60 @@ Founder authority may:
 
 ---
 
-## SECTION X — HARD STOP
+## SECTION X — VERSION GOVERNANCE INTEGRATION CLAUSE
+
+The Federation Plane executes update propagation under the authority of **VERSION_EVOLUTION_AND_PATCH_GOVERNANCE_MODEL.md**.
+
+### Version Governance Authority
+
+All Federation Plane operations MUST comply with:
+
+- **Patch classification** as defined in VERSION_EVOLUTION_AND_PATCH_GOVERNANCE_MODEL.md
+- **Compatibility matrix** enforcement for all instances
+- **Upgrade sequencing rules** for major version transitions
+- **Deprecation lifecycle** for feature sunset
+- **Rollback discipline** for failed updates
+
+### Compliance State Integration
+
+Instance lifecycle states MUST reference the compatibility matrix:
+
+- **Out-of-Compliance** state triggered by version drift beyond compatibility window
+- **Suspended** state triggered by security patch refusal beyond 72 hours
+- **Revoked** state triggered by unauthorized version fork
+
+### Forced Security Patch Authority
+
+The Federation Plane MUST enforce mandatory security patches:
+
+- **24-hour deployment window** for critical security patches
+- **Automatic suspension** for non-compliant instances after 48 hours
+- **No opt-out mechanism** for security patches
+
+### Staged Rollout Enforcement
+
+The Federation Plane MUST execute staged rollouts:
+
+- **Canary Phase:** 5% of instances (24 hours)
+- **Beta Phase:** 25% of instances (48 hours)
+- **General Availability:** 100% of instances
+
+**Rollback Trigger:** If failure rate exceeds thresholds, rollback all instances.
+
+### Version Synchronization Authority
+
+The Federation Plane MUST prevent ecosystem fragmentation:
+
+- Enforce version synchronization across all instances
+- Prevent unauthorized version forks
+- Monitor version drift and trigger compliance audits
+- Escalate repeated violations to Founder authority
+
+**Invariant:** Federation Plane executes propagation under version governance. It does NOT define version authority.
+
+---
+
+## SECTION XI — HARD STOP
 
 This document authorizes **governance definition only**.
 
@@ -503,7 +556,7 @@ This document **DOES** authorize:
 
 ---
 
-## SECTION XI — RATIFICATION STATEMENT
+## SECTION XII — RATIFICATION STATEMENT
 
 **Status:** RATIFIED  
 **Authority:** Founder  
