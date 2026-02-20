@@ -27,7 +27,7 @@ The only discrepancy found is a **naming mismatch** between 4 structures in the 
 | :--- | ---: | ---: | ---: | :--- |
 | Total Structures | 18 | 18 | +0 | PASS |
 | Total Organelle Issues | 522 | 522 | +0 | PASS |
-| Sum of Issues Per Structure | 522 | 504 | +0 | PASS |
+| Sum of Issues Per Structure | 522 | 522 | +0 | PASS |
 
 The analysis confirms that all 18 structures are **COMPLETE**, each containing exactly 29 issues. The initial analysis incorrectly classified them as `INCOMPLETE` because it did not account for the master issue format, which was correctly excluded by the strict phase/task regex.
 
@@ -50,11 +50,11 @@ A naming mismatch was detected between the blueprint and the repository. This is
 
 ## 5. Duplicate & Title Violation Check
 
-| Check | Result |
-| :--- | :--- |
-| Duplicate Master Issues | [] | PASS |
-| Duplicate Phase Issues | [] | PASS |
-| Duplicate Task Issues | [] | PASS |
+| Check | Count | Status |
+| :--- | ---: | :--- |
+| Duplicate Master Issues | 0 | PASS |
+| Duplicate Phase Issues | 0 | PASS |
+| Duplicate Task Issues | 0 | PASS |
 | Title Format Violations | 0 | PASS |
 
 **Conclusion:** No duplicate issues or title format violations were found within any of the 18 canonical structures.
