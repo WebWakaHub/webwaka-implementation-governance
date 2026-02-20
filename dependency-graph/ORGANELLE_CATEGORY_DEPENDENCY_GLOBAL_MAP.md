@@ -116,12 +116,42 @@ This document authorizes structural definition only. It does not authorize issue
 
 ---
 
-## SECTION VIII — RATIFICATION STATEMENT
+## SECTION VIII — CANONICAL ORGANELLE STRUCTURE REGISTRY
+
+The following table lists the 18 canonical Organelle structures as verified by LSVR-01 (2026-02-20) and reconciled by LSVR-01A (2026-02-20). Repository naming is the authoritative source of truth.
+
+| Structure ID | Category Code | Category Name | Version |
+| :--- | :--- | :--- | :--- |
+| `ORG-CI-MESSAGE_GATEWAY` | CI | Communication & Integration | v0.1.0 |
+| `ORG-CM-COMPOSITION_MODELER` | CM | Composition & Modeling | v0.1.0 |
+| `ORG-CP-POLICY_DEFINITION` | CP | Configuration & Policy | v0.1.0 |
+| `ORG-DP-RECORD_STORE` | DP | Data & Persistence | v0.1.0 |
+| `ORG-EI-EXTERNAL_ADAPTER` | EI | External Integration | v0.1.0 |
+| `ORG-EM-EVENT_DISPATCHER` | EM | Event & Messaging | v0.1.0 |
+| `ORG-ES-SCHEDULER_EXECUTOR` | ES | Execution & Scheduling | v0.1.0 |
+| `ORG-FV-VALIDATION_ENGINE` | FV | Function & Validation | v0.1.0 |
+| `ORG-IA-SUBJECT_REGISTRY` | IA | Identity & Access | v0.1.0 |
+| `ORG-IN-INSTRUMENTATION_PROBE` | IN | Instrumentation | v0.1.0 |
+| `ORG-LG-AUDIT_LOGGER` | LG | Logging & Auditing | v0.1.0 |
+| `ORG-OD-DISCOVERY_REGISTRY` | OD | Observation & Discovery | v0.1.0 |
+| `ORG-RA-RESOURCE_ALLOCATOR` | RA | Resource & Asset | v0.1.0 |
+| `ORG-RG-GOVERNANCE_REGISTRY` | RG | Registry & Governance | v0.1.0 |
+| `ORG-ST-TRUST_ASSERTION` | ST | Security & Trust | v0.1.0 |
+| `ORG-TB-BOUNDARY_CONTEXT` | TB | Tenancy & Boundary | v0.1.0 |
+| `ORG-TS-TELEMETRY_COLLECTOR` | TS | Telemetry & Signals | v0.1.0 |
+| `ORG-WO-WORKFLOW_ORCHESTRATOR` | WO | Workflow & Orchestration | v0.1.0 |
+
+**Total:** 18 canonical structures. All verified COMPLETE (29 issues each) as of LSVR-01 (2026-02-20).
+
+---
+
+## SECTION IX — RATIFICATION STATEMENT
 
 | | |
 |---|---|
 | **Status** | RATIFIED |
 | **Authority** | Founder |
 | **Date** | 2026-02-19 |
+| **Last Updated** | 2026-02-20 (LSVR-01A Reconciliation) |
 
 This document is constitutionally binding.
