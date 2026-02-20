@@ -568,6 +568,57 @@ The Runtime Plane MUST enforce the following boundaries:
 
 ---
 
+## SECTION XIII-A — RUNTIME FEATURE FLAG DISCIPLINE
+
+The Runtime Plane MUST support reversible feature toggling and entitlement gating as defined in **FEATURE_ENTITLEMENT_AND_MODULE_ACTIVATION_MODEL.md**.
+
+### Reversible Feature Toggling Requirement
+
+The Runtime Plane MUST:
+- Support feature flag configuration per instance
+- Support feature flag toggling without restart
+- Preserve rollback capability for all feature toggles
+- NOT mutate capability layer semantics during toggling
+
+### Entitlement Logic Externalization Discipline
+
+The Runtime Plane MUST:
+- Externalize entitlement checks to Runtime Plane adapters
+- NOT embed entitlement logic in capability binding
+- NOT pass subscription tier information to capability layers
+- Return HTTP 403 Forbidden for unauthorized feature access
+
+### Feature Flag Structure
+
+Feature flags MUST follow standardized structure:
+```json
+{
+  "feature_id": "COM_PRODUCT_CATALOG",
+  "enabled": true,
+  "entitlement_tier": "DOMAIN",
+  "instance_id": "uuid-v4",
+  "activation_date": "2026-02-20T00:00:00Z"
+}
+```
+
+### Multi-Tenant Feature Isolation
+
+In multi-tenant runtime mode:
+- Feature flags MUST be isolated per tenant
+- Tenant A activation MUST NOT affect Tenant B
+- Cross-tenant feature leakage prohibited
+- Tenant-specific activation matrix maintained
+
+### Feature Toggle Invariants
+
+**Invariant 1:** Feature toggling MUST NOT modify capability definitions.
+
+**Invariant 2:** Toggling MUST be reversible without data loss.
+
+**Invariant 3:** No permanent mutation allowed during toggling.
+
+---
+
 ## SECTION XIV — HARD STOP
 
 This document authorizes:

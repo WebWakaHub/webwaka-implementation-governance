@@ -529,6 +529,46 @@ The Federation Plane MUST prevent ecosystem fragmentation:
 
 ---
 
+## SECTION X — ENTITLEMENT ENFORCEMENT CLAUSE
+
+The Federation Plane enforces subscription-tier control and module activation governance as defined in **FEATURE_ENTITLEMENT_AND_MODULE_ACTIVATION_MODEL.md**.
+
+### Subscription Tier Validation
+
+The Federation Plane MUST:
+- Validate subscription tier against billing system
+- Sync activation matrix to instance
+- Audit entitlement compliance daily
+- Reject unauthorized module activations
+
+### Module Activation Eligibility Enforcement
+
+The Federation Plane MUST:
+- Validate Domain Activation Token (DAT) requests
+- Verify subscription tier eligibility
+- Verify version compatibility
+- Verify runtime compatibility
+- Issue DAT if all prerequisites satisfied
+- Reject DAT if any prerequisite fails
+
+### Unauthorized Activation Suspension Authority
+
+If an instance activates a module without valid DAT:
+- **24 hours:** Warning issued
+- **48 hours:** Module deactivated
+- **72 hours:** Instance suspended
+- **7 days:** Instance revoked (requires Founder authority to restore)
+
+### Entitlement Audit Enforcement
+
+The Federation Plane MUST:
+- Conduct daily entitlement audits for all Active instances
+- Flag unauthorized module activations
+- Flag subscription tier mismatches
+- Escalate repeated violations (3+ in 30 days) to Founder authority
+
+---
+
 ## SECTION XI — HARD STOP
 
 This document authorizes **governance definition only**.

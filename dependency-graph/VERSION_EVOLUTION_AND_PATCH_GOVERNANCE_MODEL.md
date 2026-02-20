@@ -471,6 +471,50 @@ The following violations MUST be escalated to Founder authority:
 
 ---
 
+## SECTION IX-A — ENTITLEMENT COMPATIBILITY CLAUSE
+
+All feature activations MUST respect version compatibility matrix as defined in **FEATURE_ENTITLEMENT_AND_MODULE_ACTIVATION_MODEL.md**.
+
+### Feature Activation Version Compatibility
+
+**Rule:** Domain module activation MUST satisfy version compatibility prerequisites.
+
+**Prerequisites:**
+- Module version compatible with instance platform version
+- Module minimum platform version requirement satisfied
+- Runtime version compatible with module requirements
+- No version compatibility matrix violations
+
+### Activation Outside Supported Version Window Prohibition
+
+**Rule:** No activation may occur outside the supported version window.
+
+**Enforcement:**
+- Domain Activation Token (DAT) issuance requires version compatibility validation
+- Incompatible activation requests rejected by Federation Plane
+- Upgrade recommendation provided if version incompatibility detected
+
+### Version Upgrade Prerequisite for Premium Features
+
+**Rule:** Premium features requiring newer platform versions MUST NOT be activated on instances running older versions.
+
+**Example:**
+- HLT domain requires platform v0.2.0
+- Instance running v0.1.0 MUST upgrade to v0.2.0 before HLT domain activation
+- DAT issuance rejected until upgrade completed
+
+### Entitlement-Driven Version Roadmap
+
+**Principle:** Feature entitlement tiers inform version evolution roadmap.
+
+**Discipline:**
+- CORE tier features remain stable across minor versions
+- DOMAIN tier features MAY require minor version upgrades
+- PREMIUM tier features MAY require major version upgrades
+- ENTERPRISE tier features MAY require dedicated version branches (with upstream compatibility)
+
+---
+
 ## SECTION X — HARD STOP
 
 This document authorizes **governance definition only**.
