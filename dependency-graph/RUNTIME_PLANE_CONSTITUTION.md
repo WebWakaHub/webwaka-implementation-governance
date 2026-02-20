@@ -462,7 +462,69 @@ All constitutional violations must be escalated to **webwaka007 (Founder)** for 
 
 ---
 
-## SECTION XIII — HARD STOP
+## SECTION XIII — FEDERATION INTEGRATION CLAUSE
+
+The Runtime Plane MUST support integration with the **Federation Plane** as defined in **PLATFORM_FEDERATION_CONSTITUTION.md**.
+
+### Instance Metadata Interface
+
+The Runtime Plane MUST expose a secure interface that provides:
+
+- **Instance ID** — Globally unique instance identifier
+- **Version Metadata** — Current platform version across all layers
+- **Active Domains** — List of activated domain modules
+- **Runtime Version** — Current Runtime Plane version
+- **Subscription Tier** — Current entitlement tier
+- **Compliance Status** — Current lifecycle state
+
+This interface MUST:
+
+- Use TLS 1.3 or higher
+- Implement mutual TLS authentication
+- Validate all requests via signed tokens
+- Rate limit requests to prevent abuse
+
+### Signed Update Ingestion
+
+The Runtime Plane MUST support ingestion of signed updates from the Federation Plane:
+
+- Verify cryptographic signatures on all updates
+- Validate version compatibility before binding
+- Support rollback mechanism for failed updates
+- Log all update operations for audit
+
+### Remote Compliance Verification
+
+The Runtime Plane MUST support remote compliance verification:
+
+- Expose compliance status endpoint
+- Report version drift metrics
+- Report security patch status
+- Support forced update enforcement
+
+### Capability Invariant Preservation
+
+The Runtime Plane MUST preserve capability invariants during updates:
+
+- Updates MUST NOT alter capability semantics
+- Updates MUST NOT require refactoring of biological layers
+- Updates MUST maintain API compatibility
+- Updates MUST support backward compatibility windows
+
+### Federation Authority Boundary
+
+The Runtime Plane MUST enforce the following boundaries:
+
+- Federation Plane MAY request update deployment
+- Federation Plane MAY NOT directly modify runtime state
+- Federation Plane MAY NOT bypass runtime governance
+- Federation Plane MAY NOT alter capability logic
+
+**Invariant:** The Runtime Plane retains execution authority. Federation Plane provides governance only.
+
+---
+
+## SECTION XIV — HARD STOP
 
 This document authorizes:
 
@@ -481,7 +543,7 @@ This is a pure constitutional definition document.
 
 ---
 
-## SECTION XIV — RATIFICATION STATEMENT
+## SECTION XV — RATIFICATION STATEMENT
 
 | | |
 |---|---|

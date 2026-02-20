@@ -415,7 +415,55 @@ Transition from dormant state requires:
 
 ---
 
-## SECTION X — HARD STOP
+## SECTION X — FEDERATION COMPATIBILITY REQUIREMENTS
+
+All Runtime Plane structures MUST support integration with the **Federation Plane** as defined in **PLATFORM_FEDERATION_CONSTITUTION.md**.
+
+### Federation Compatibility Requirement
+
+Every Runtime structure MUST:
+
+- Expose instance metadata interface for federation handshake
+- Support signed update ingestion from Federation Plane
+- Implement remote compliance verification endpoints
+- Preserve capability invariants during updates
+- Support rollback mechanism for failed updates
+
+### Signed Patch Enforcement Rule
+
+All updates received from the Federation Plane MUST:
+
+- Be cryptographically signed by federation authority
+- Include version metadata and compatibility matrix
+- Include rollback instructions
+- Be verified before binding to runtime
+
+**Prohibition:** Runtime structures MUST NOT accept unsigned updates.
+
+### Remote Update Binding Discipline
+
+When binding updates from the Federation Plane, the Runtime MUST:
+
+1. **Validate signature** — Verify cryptographic signature on update package
+2. **Check compatibility** — Validate version compatibility matrix
+3. **Backup state** — Create rollback checkpoint before binding
+4. **Bind update** — Apply update to runtime structures
+5. **Verify integrity** — Validate runtime integrity post-update
+6. **Report status** — Report success/failure to Federation Plane
+7. **Rollback if failed** — Revert to checkpoint if verification fails
+
+### Authority Boundary
+
+The Runtime Plane:
+
+- **Retains execution authority** — Federation Plane provides governance only
+- **MAY reject updates** — If compatibility validation fails
+- **MUST report compliance** — To Federation Plane for audit
+- **MUST NOT bypass federation** — All updates must route through Federation Plane
+
+---
+
+## SECTION XI — HARD STOP
 
 This document authorizes **structural industrialization only**.
 
@@ -455,7 +503,7 @@ Will result in **immediate constitutional freeze** and **Founder escalation**.
 
 ---
 
-## SECTION XI — RATIFICATION STATEMENT
+## SECTION XII — RATIFICATION STATEMENT
 
 | | |
 |---|---|

@@ -140,7 +140,67 @@ Additional tracking requirements for the Organism Layer include:
 
 ---
 
-## SECTION XIV — PROGRAM COMPLETION LOCK
+## SECTION XIV — FEDERATION GOVERNANCE INTERFACE
+
+The Organism Layer governs cross-instance evolution through integration with the **Federation Plane** as defined in **PLATFORM_FEDERATION_CONSTITUTION.md**.
+
+### Version Authority
+
+The Organism Layer defines:
+
+- **Global platform version** — Semantic version for the entire biological stack
+- **Version roadmap** — Evolution strategy and release schedule
+- **Compatibility matrix** — Cross-layer version dependencies
+- **Migration paths** — Upgrade sequences for major version transitions
+
+**Invariant:** The Organism Layer retains exclusive authority to define version semantics.
+
+### Cross-Instance Propagation
+
+The Federation Plane executes:
+
+- **Update distribution** — Propagates updates to all registered instances
+- **Compliance enforcement** — Monitors version drift and enforces update windows
+- **Entitlement validation** — Verifies subscription tier eligibility
+- **Rollback coordination** — Executes rollback across instances if required
+
+**Invariant:** The Federation Plane executes propagation only. It does NOT define version authority.
+
+### Instance-Level Update Binding
+
+The Runtime Plane enforces:
+
+- **Update ingestion** — Validates and binds updates to runtime
+- **Deployment execution** — Deploys updates to instance infrastructure
+- **Rollback mechanism** — Reverts to previous version if deployment fails
+- **Compliance reporting** — Reports version status to Federation Plane
+
+**Invariant:** The Runtime Plane retains execution authority. Federation Plane provides governance only.
+
+### Authority Hierarchy
+
+```
+Organism Layer (Defines)
+    ↓
+Federation Plane (Executes)
+    ↓
+Runtime Plane (Binds)
+    ↓
+Instance (Deploys)
+```
+
+### Capability Invariant Preservation
+
+All updates propagated through the Federation Plane MUST:
+
+- Preserve capability semantics across all biological layers
+- NOT require refactoring of Organelle, Cell, Tissue, Organ, or System layers
+- Maintain API compatibility within backward compatibility windows
+- Support rollback without data loss
+
+---
+
+## SECTION XV — PROGRAM COMPLETION LOCK
 
 Full biological stack completion occurs only when:
 
@@ -154,7 +214,7 @@ Until then, industrialization remains active.
 
 ---
 
-## SECTION XV — RATIFICATION STATEMENT
+## SECTION XVI — RATIFICATION STATEMENT
 
 | | |
 |---|---|

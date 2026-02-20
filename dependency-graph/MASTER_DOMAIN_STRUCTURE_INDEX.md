@@ -4,26 +4,26 @@ _content="""# MASTER DOMAIN STRUCTURE INDEX
 
 ## SECTION I — CANONICAL DOMAIN REGISTRY INDEX
 
-| Domain Code | Domain Name | Structure Map Exists | Vertical Stack Pre-Generated | Activation Status | DAT Issued | Current Phase | Dependency Integrity Score |
+| Domain Code | Domain Name | Structure Map Exists | Vertical Stack Pre-Generated | Activation Status | DAT Issued | Current Phase | Dependency Integrity Score | Minimum Platform Version | Feature Entitlement Tier | Federation Eligibility Status |
 |---|---|---|---|---|---|---|---|
-| COM | Commerce | NO | NO | dormant | NO | 0 | N/A |
-| TRN | Transportation | NO | NO | dormant | NO | 0 | N/A |
-| FIN | Financial Services | NO | NO | dormant | NO | 0 | N/A |
-| IDA | Identity & Access Governance | NO | NO | dormant | NO | 0 | N/A |
-| MED | Media & Content | NO | NO | dormant | NO | 0 | N/A |
-| EDU | Education | NO | NO | dormant | NO | 0 | N/A |
-| HLT | Health | NO | NO | dormant | NO | 0 | N/A |
-| GOV | Governance & Civic | NO | NO | dormant | NO | 0 | N/A |
-| ENT | Enterprise Operations | NO | NO | dormant | NO | 0 | N/A |
-| SOC | Social & Relationship | NO | NO | dormant | NO | 0 | N/A |
-| LOG | Logistics & Fulfillment | NO | NO | dormant | NO | 0 | N/A |
-| INF | Infrastructure & Platform Services | NO | NO | dormant | NO | 0 | N/A |
-| ANA | Analytics & Intelligence | NO | NO | dormant | NO | 0 | N/A |
-| EXT | Extensibility & Marketplace | NO | NO | dormant | NO | 0 | N/A |
-| CFG | Configuration & Policy Services | NO | NO | dormant | NO | 0 | N/A |
-| SEC | Security & Trust Services | NO | NO | dormant | NO | 0 | N/A |
-| RES | Resource & Asset Management | NO | NO | dormant | NO | 0 | N/A |
-| GEO | Geographic & Location Services | NO | NO | dormant | NO | 0 | N/A |
+| COM | Commerce | NO | NO | dormant | NO | 0 | N/A | v0.1.0 | Free | Eligible |
+| TRN | Transportation | NO | NO | dormant | NO | 0 | N/A | v0.1.0 | Pro | Eligible |
+| FIN | Financial Services | NO | NO | dormant | NO | 0 | N/A | v0.1.0 | Pro | Eligible |
+| IDA | Identity & Access Governance | NO | NO | dormant | NO | 0 | N/A | v0.1.0 | Free | Eligible |
+| MED | Media & Content | NO | NO | dormant | NO | 0 | N/A | v0.1.0 | Pro | Eligible |
+| EDU | Education | NO | NO | dormant | NO | 0 | N/A | v0.1.0 | Pro | Eligible |
+| HLT | Health | NO | NO | dormant | NO | 0 | N/A | v0.2.0 | Enterprise | Eligible |
+| GOV | Governance & Civic | NO | NO | dormant | NO | 0 | N/A | v0.2.0 | Enterprise | Eligible |
+| ENT | Enterprise Operations | NO | NO | dormant | NO | 0 | N/A | v0.1.0 | Enterprise | Eligible |
+| SOC | Social & Relationship | NO | NO | dormant | NO | 0 | N/A | v0.1.0 | Free | Eligible |
+| LOG | Logistics & Fulfillment | NO | NO | dormant | NO | 0 | N/A | v0.1.0 | Pro | Eligible |
+| INF | Infrastructure & Platform Services | NO | NO | dormant | NO | 0 | N/A | v0.1.0 | Free | Eligible |
+| ANA | Analytics & Intelligence | NO | NO | dormant | NO | 0 | N/A | v0.2.0 | Pro | Eligible |
+| EXT | Extensibility & Marketplace | NO | NO | dormant | NO | 0 | N/A | v0.2.0 | Enterprise | Eligible |
+| CFG | Configuration & Policy Services | NO | NO | dormant | NO | 0 | N/A | v0.1.0 | Free | Eligible |
+| SEC | Security & Trust Services | NO | NO | dormant | NO | 0 | N/A | v0.1.0 | Free | Eligible |
+| RES | Resource & Asset Management | NO | NO | dormant | NO | 0 | N/A | v0.1.0 | Pro | Eligible |
+| GEO | Geographic & Location Services | NO | NO | dormant | NO | 0 | N/A | v0.1.0 | Pro | Eligible |
 
 ---
 
