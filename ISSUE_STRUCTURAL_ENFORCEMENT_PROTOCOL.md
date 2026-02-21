@@ -98,3 +98,37 @@ A GitHub Action will be deployed on all biological and runtime repositories to p
 ## 7.0 Protocol Amendments
 
 Any amendments to this protocol must be proposed via a pull request to this document in the `webwaka-implementation-governance` repository and require approval from the Founder.
+
+
+---
+
+## LSVR-03A Archival Whitelist Clause
+
+**Added:** 2026-02-21 02:02:13 UTC
+
+### Canonical Issue Protection
+
+Any issue matching the canonical structure signature:
+
+```
+^\[([A-Z0-9\-\_\.v]+)-P[0-6](?:-T[0-9]{2})?\]
+```
+
+or the master issue signature:
+
+```
+^\[([A-Z0-9\-\_\.v]+)\]\s+(?:Master Issue|.+\s+[—\-]\s+Master Issue)
+```
+
+is classified as a **CANONICAL ISSUE** and is **PROTECTED** from archival by any automated protocol.
+
+### Archival Whitelist Rules
+
+1. **NEVER archive** issues matching the canonical or master regex without explicit Founder authorization.
+2. **ALWAYS verify** that an issue is non-canonical (legacy format, orphan, or ghost duplicate) before archiving.
+3. **ALWAYS check** that archiving a set of issues does not reduce any structure below 29 active canonical issues.
+4. **ABORT** any archival operation that would leave a canonical structure with fewer than 29 active issues.
+
+### Violation Consequence
+
+Any automated protocol that archives canonical issues without Founder authorization is considered a **PROTOCOL VIOLATION** and must be immediately reported and reversed.
