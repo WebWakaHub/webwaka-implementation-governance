@@ -94,9 +94,37 @@ This certification confirms that the full stack of 128 canonical structures and 
 
 ---
 
-## SECTION VI — MASTER DOCUMENT REGISTRY
+## SECTION VI — AUTOMATED GOVERNANCE VALIDATION ENGINE (AGVE)
 
-This Master Document consolidates and references the following 22 canonical governance documents:
+The **Automated Governance Validation Engine (AGVE)**, also known as the **Autonomous Constitutional Drift Sentinel**, is the supreme constitutional governance sentinel for the WebWaka platform. It is established by `dependency-graph/AUTOMATED_GOVERNANCE_VALIDATION_ENGINE_MODEL.md` and its authority supersedes all other layers and planes.
+
+**Core Principle:** AGVE validates only. It **MUST NOT** modify issues, auto-close issues, or auto-edit governance. It may only report and trigger a constitutional freeze.
+
+| Validation Domain | Scope |
+|---|---|
+| Structural Validation | 128 structures × 29 issues = 3,712 invariant |
+| Governance Corpus Validation | 22 required documents + Master Document synchronization |
+| Runtime Structure Validation | 14 runtime structures × 29 issues |
+| Federation Compliance Validation | Version compliance, entitlement boundaries |
+| Version Compatibility Validation | Cross-layer version inheritance rules |
+| Entitlement Boundary Validation | Feature activation and access control |
+
+**Drift Classification:**
+
+| Level | Classification | Action |
+|---|---|---|
+| 1 | Informational | Log only |
+| 2 | Warning | Generate warning report |
+| 3 | Structural Risk | Generate high-priority report |
+| 4 | Constitutional Breach | **Trigger Freeze — apply `governance:freeze-candidate`** |
+
+**Reference:** `dependency-graph/AUTOMATED_GOVERNANCE_VALIDATION_ENGINE_MODEL.md`
+
+---
+
+## SECTION VII — MASTER DOCUMENT REGISTRY
+
+This Master Document consolidates and references the following 23 canonical governance documents:
 
 1. `BIOLOGICAL_LAYER_INDUSTRIALIZATION_MODEL.md`
 2. `CELL_LAYER_GLOBAL_DOMAIN_BLUEPRINT.md`
@@ -120,3 +148,4 @@ This Master Document consolidates and references the following 22 canonical gove
 20. `TISSUE_LAYER_GLOBAL_DOMAIN_BLUEPRINT.md`
 21. `VERSION_EVOLUTION_AND_PATCH_GOVERNANCE_MODEL.md`
 22. `VERTICAL_DOMAIN_ACTIVATION_MODEL.md`
+23. `AUTOMATED_GOVERNANCE_VALIDATION_ENGINE_MODEL.md`
