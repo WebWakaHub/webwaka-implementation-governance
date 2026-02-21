@@ -84,7 +84,7 @@ The standardized global identifier format is:
 | TIS | Tissue |
 | ORGX | Organ |
 | SYS | System |
-| ORGSM | Organism |
+| ORG | Organism |
 
 - **Master Issue ID Format:** `[GlobalID] Master Issue`
 - **Phase Issue ID Format:** `[GlobalID-P#] Phase Name`

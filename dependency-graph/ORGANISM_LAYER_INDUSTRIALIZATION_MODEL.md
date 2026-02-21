@@ -48,7 +48,7 @@ A minimum of 21 atomic tasks (3 per phase) is required for each Organism. No fou
 ## SECTION V — ORGANISM NUMBERING MODEL
 
 The standardized identifier format for an Organism is:
-`ORGSM-<ENTITYCODE>-<ORGANISMNAME>-v<Version>`
+`ORG-<ENTITYCODE>-<ORGANISMNAME>-v<Version>`
 
 - **Master Issue Format:** `[OrganismID] Master Issue`
 - **Phase Issue Format:** `[OrganismID-P#] Phase Name`
@@ -251,3 +251,29 @@ Until then, industrialization remains active.
 
 This document is constitutionally binding.
 """
+
+---
+
+## SECTION XVII — LSVR-06A BLUEPRINT RECONCILIATION NOTE
+
+During LSVR-06 verification (2026-02-21), it was confirmed that the canonical
+Organism Layer prefix in the repository is `ORG-`, not `ORGSM-`.
+
+This reconciliation formally establishes `ORG-` as the constitutional
+canonical prefix for all Organism Layer structures.
+
+Repository naming is declared the single source of truth.
+
+The canonical identifier format for the Organism Layer is:
+
+`ORG-<ENTITYCODE>-<ORGANISMNAME>-v<Version>`
+
+All prior references to `ORGSM-` in this document and in
+`BIOLOGICAL_LAYER_INDUSTRIALIZATION_MODEL.md` have been updated accordingly
+as part of LSVR-06A execution.
+
+| | |
+|---|---|
+| **Reconciliation Protocol** | LSVR-06A |
+| **Authority** | Founder |
+| **Date** | 2026-02-21 |
