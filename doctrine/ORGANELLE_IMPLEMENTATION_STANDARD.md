@@ -489,3 +489,32 @@ Following the completion of LSVR-01 (Organelle Layer Verification), a naming dri
 **Reference:** LSVR-01A — Organelle Blueprint Reconciliation
 
 ---
+
+---
+
+## CANONICAL STRUCTURE REGISTRY
+
+*This registry is constitutionally binding and synchronized with `MASTER_IMPLEMENTATION_TRACKER.md`. Generated: 2026-02-21 (GDFVA-01A).*
+
+**Total Organelle Structures:** 18 (18 canonical organelle categories)
+
+| Structure ID | Issues | State |
+|---|---:|---|
+| `ORG-CI-MESSAGE_GATEWAY-v0.1.0` | 29 | `state:dormant` |
+| `ORG-CM-COMPOSITION_MODELER-v0.1.0` | 29 | `state:dormant` |
+| `ORG-CP-POLICY_DEFINITION-v0.1.0` | 29 | `state:dormant` |
+| `ORG-DP-RECORD_STORE-v0.1.0` | 29 | `state:dormant` |
+| `ORG-EI-EXTERNAL_ADAPTER-v0.1.0` | 29 | `state:dormant` |
+| `ORG-EM-EVENT_DISPATCHER-v0.1.0` | 29 | `state:dormant` |
+| `ORG-ES-SCHEDULER_EXECUTOR-v0.1.0` | 29 | `state:dormant` |
+| `ORG-FV-VALIDATION_ENGINE-v0.1.0` | 29 | `state:dormant` |
+| `ORG-IA-SUBJECT_REGISTRY-v0.1.0` | 29 | `state:dormant` |
+| `ORG-IN-INSTRUMENTATION_PROBE-v0.1.0` | 29 | `state:dormant` |
+| `ORG-LG-AUDIT_LOGGER-v0.1.0` | 29 | `state:dormant` |
+| `ORG-OD-DISCOVERY_REGISTRY-v0.1.0` | 29 | `state:dormant` |
+| `ORG-RA-RESOURCE_ALLOCATOR-v0.1.0` | 29 | `state:dormant` |
+| `ORG-RG-GOVERNANCE_REGISTRY-v0.1.0` | 29 | `state:dormant` |
+| `ORG-ST-TRUST_ASSERTION-v0.1.0` | 29 | `state:dormant` |
+| `ORG-TB-BOUNDARY_CONTEXT-v0.1.0` | 29 | `state:dormant` |
+| `ORG-TS-TELEMETRY_COLLECTOR-v0.1.0` | 29 | `state:dormant` |
+| `ORG-WO-WORKFLOW_ORCHESTRATOR-v0.1.0` | 29 | `state:dormant` |

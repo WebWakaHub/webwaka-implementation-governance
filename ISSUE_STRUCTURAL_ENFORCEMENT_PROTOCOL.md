@@ -132,3 +132,31 @@ is classified as a **CANONICAL ISSUE** and is **PROTECTED** from archival by any
 ### Violation Consequence
 
 Any automated protocol that archives canonical issues without Founder authorization is considered a **PROTOCOL VIOLATION** and must be immediately reported and reversed.
+
+---
+
+## GDFVA-01A Layer Identification Enforcement Clause
+
+**Added:** 2026-02-21 (GDFVA-01A Governance Remediation Protocol)
+
+### Layer Identification Standard
+
+Enforcement **SHALL** validate layer identity using the following hierarchy of signals, in order of precedence:
+
+1. **GitHub label** (`layer:organelle`, `layer:cell`, `layer:tissue`, `layer:organ`, `layer:system`, `layer:organism`, `layer:runtime`)
+2. **Canonical bracket pattern** (e.g., `^\[SYS-`, `^\[CEL-`, `^\[ORGX-`)
+3. **Structure registry reference** (as defined in the Canonical Layer Code Registry in `BIOLOGICAL_LAYER_INDUSTRIALIZATION_MODEL.md`)
+
+Enforcement **SHALL NOT** infer layer from structural prefix alone, as the `ORG-` prefix is shared by both the Organelle layer (`ORG-XX-NAME-vX.X.X`) and the Organism layer (`ORG-WEBWAKA-PLATFORM-vX.X.X`). The GitHub label is the authoritative discriminator.
+
+### Canonical Layer Code Reference
+
+| Governance Layer Code | Layer | Structural Prefix | GitHub Label |
+|---|---|---|---|
+| `ORGL` | Organelle | `ORG-` | `layer:organelle` |
+| `CEL` | Cell | `CEL-` | `layer:cell` |
+| `TIS` | Tissue | `TIS-` | `layer:tissue` |
+| `ORGX` | Organ | `ORGX-` | `layer:organ` |
+| `SYS` | System | `SYS-` | `layer:system` |
+| `ORGM` | Organism | `ORG-` | `layer:organism` |
+| `RUN` | Runtime | `RUNTIME-` | `layer:runtime` |

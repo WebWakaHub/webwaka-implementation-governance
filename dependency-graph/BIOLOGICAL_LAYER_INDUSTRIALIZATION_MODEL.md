@@ -75,16 +75,38 @@ To ensure stability, a phase synchronization model is enforced across layers.
 The standardized global identifier format is:
 `<LayerCode>-<CategoryCode>-<StructureName>-v<Version>`
 
-**Layer Codes:**
+---
+
+## CANONICAL LAYER CODE REGISTRY
+
+The following registry is the **single source of truth** for all layer identification codes. Governance layer codes are identification abstractions and **MUST NOT** be confused with structural prefixes used in issue titles.
+
+| Governance Layer Code | Layer | Structural Prefix | GitHub Label |
+|---|---|---|---|
+| `ORGL` | Organelle | `ORG-` | `layer:organelle` |
+| `CEL` | Cell | `CEL-` | `layer:cell` |
+| `TIS` | Tissue | `TIS-` | `layer:tissue` |
+| `ORGX` | Organ | `ORGX-` | `layer:organ` |
+| `SYS` | System | `SYS-` | `layer:system` |
+| `ORGM` | Organism | `ORG-` | `layer:organism` |
+| `RUN` | Runtime | `RUNTIME-` | `layer:runtime` |
+
+**Constitutional Clarification:**
+
+> Structural prefixes are immutable and **MUST NOT** be altered. Governance layer codes are identification abstractions and do not modify structural naming. Automation **MUST** rely on GitHub labels (`layer:*`) for layer identification, not structural prefix parsing alone.
+
+---
+
+**Layer Codes (Superseded — see Canonical Layer Code Registry above):**
 
 | Code | Layer |
 |---|---|
-| ORG | Organelle |
-| CEL | Cell |
-| TIS | Tissue |
-| ORGX | Organ |
-| SYS | System |
-| ORG | Organism |
+| ~~ORG~~ → `ORGL` | Organelle |
+| `CEL` | Cell |
+| `TIS` | Tissue |
+| `ORGX` | Organ |
+| `SYS` | System |
+| ~~ORG~~ → `ORGM` | Organism |
 
 - **Master Issue ID Format:** `[GlobalID] Master Issue`
 - **Phase Issue ID Format:** `[GlobalID-P#] Phase Name`
