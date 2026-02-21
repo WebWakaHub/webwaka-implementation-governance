@@ -135,11 +135,24 @@ AGVE v1.1 closes the dynamic governance gap by adding 8 activation discipline ch
 
 **Reference:** `dependency-graph/AUTOMATED_GOVERNANCE_VALIDATION_ENGINE_MODEL.md`
 
+**AGVE Operational Execution & Certification Protocol:**
+
+The `AGVE_EXECUTION_AND_CERTIFICATION_PROTOCOL.md` operationalizes the AGVE by defining the mandatory invocation and certification process. No activation is constitutionally valid without a **Full Platform Certification** — a PASS across all 7 validation domains — followed by explicit Founder clearance.
+
+| Certification Level | Requirement |
+|---|---|
+| Structural Certified | Structural Integrity PASS |
+| Governance Certified | Governance Corpus Integrity PASS |
+| Activation Certified | Activation Discipline PASS |
+| **Full Platform Certified** | **All 7 domains PASS — required for activation** |
+
+**Reference:** `dependency-graph/AGVE_EXECUTION_AND_CERTIFICATION_PROTOCOL.md`
+
 ---
 
 ## SECTION VII — MASTER DOCUMENT REGISTRY
 
-This Master Document consolidates and references the following 23 canonical governance documents:
+This Master Document consolidates and references the following 24 canonical governance documents:
 
 1. `BIOLOGICAL_LAYER_INDUSTRIALIZATION_MODEL.md`
 2. `CELL_LAYER_GLOBAL_DOMAIN_BLUEPRINT.md`
@@ -164,3 +177,4 @@ This Master Document consolidates and references the following 23 canonical gove
 21. `VERSION_EVOLUTION_AND_PATCH_GOVERNANCE_MODEL.md`
 22. `VERTICAL_DOMAIN_ACTIVATION_MODEL.md`
 23. `AUTOMATED_GOVERNANCE_VALIDATION_ENGINE_MODEL.md`
+24. `AGVE_EXECUTION_AND_CERTIFICATION_PROTOCOL.md`

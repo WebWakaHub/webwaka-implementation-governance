@@ -615,3 +615,14 @@ This document does NOT authorize execution. Implementation requires separate aut
 ---
 
 **End of Document**
+
+---
+
+## AGVE Certification Gate
+
+All Federation Plane patch applications and version updates are subject to AGVE oversight as defined in:
+
+- `dependency-graph/AUTOMATED_GOVERNANCE_VALIDATION_ENGINE_MODEL.md`
+- `dependency-graph/AGVE_EXECUTION_AND_CERTIFICATION_PROTOCOL.md`
+
+No federation operation may proceed without a valid AGVE Full Platform Certification.

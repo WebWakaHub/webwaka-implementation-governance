@@ -179,3 +179,13 @@ It **DOES NOT** authorize:
 | **Date** | 2026-02-21 |
 
 This document is constitutionally binding and establishes the AGVE as the final arbiter of structural and constitutional reality for all layers of the WebWaka Platform Architecture.
+
+---
+
+## AGVE Operational Reference
+
+The execution and certification protocol for the AGVE is defined in:
+
+`dependency-graph/AGVE_EXECUTION_AND_CERTIFICATION_PROTOCOL.md`
+
+No activation, phase advancement, runtime binding, federation update, or entitlement mutation may occur without a valid Full Platform Certification issued under that protocol.

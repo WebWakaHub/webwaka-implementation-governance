@@ -652,3 +652,14 @@ This document is constitutionally binding.
 ---
 
 **END OF DOCUMENT**
+
+---
+
+## AGVE Certification Gate
+
+All Runtime Plane adapter bindings and deployment activations are subject to AGVE oversight as defined in:
+
+- `dependency-graph/AUTOMATED_GOVERNANCE_VALIDATION_ENGINE_MODEL.md`
+- `dependency-graph/AGVE_EXECUTION_AND_CERTIFICATION_PROTOCOL.md`
+
+No runtime binding may proceed without a valid AGVE Full Platform Certification.
