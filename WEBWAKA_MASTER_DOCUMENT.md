@@ -118,6 +118,21 @@ The **Automated Governance Validation Engine (AGVE)**, also known as the **Auton
 | 3 | Structural Risk | Generate high-priority report |
 | 4 | Constitutional Breach | **Trigger Freeze — apply `governance:freeze-candidate`** |
 
+**AGVE v1.1 — Activation Discipline Validation (Section XI):**
+
+AGVE v1.1 closes the dynamic governance gap by adding 8 activation discipline checks:
+
+| Check | Violation Level |
+|---|---|
+| DAT required for `state:activated` | Level 4 |
+| Phase synchronization floor enforcement | Level 3–4 |
+| Cross-domain activation isolation | Level 4 |
+| Freeze state blocks all transitions | Level 4 |
+| Runtime binding requires activation | Level 4 |
+| Entitlement compliance on activation | Level 3–4 |
+| Vertical stack completeness before activation | Level 4 |
+| State transition audit trail | Level 3–4 |
+
 **Reference:** `dependency-graph/AUTOMATED_GOVERNANCE_VALIDATION_ENGINE_MODEL.md`
 
 ---

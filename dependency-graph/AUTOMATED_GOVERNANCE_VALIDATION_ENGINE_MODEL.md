@@ -1,6 +1,6 @@
 # AUTOMATED GOVERNANCE VALIDATION ENGINE (AGVE) MODEL
 
-**Version:** 1.0
+**Version:** 1.1
 **Status:** RATIFIED
 **Effective Date:** 2026-02-21
 
@@ -103,7 +103,61 @@ The AGVE itself is the ultimate guarantor of the platform's integrity and is the
 
 ---
 
-## SECTION IX — Hard Stop
+## SECTION XI — Activation & State Discipline Validation
+
+The AGVE shall validate all dynamic activation and state transitions across all layers. This section closes the dynamic governance gap by enforcing activation discipline in both static and operational dimensions.
+
+### 1. Domain Activation Token (DAT) Validation
+
+The AGVE must verify that no structure labeled `state:activated` exists without a valid, active Domain Activation Token. Every DAT must reference a Domain Code, an Activation Wave, and a Synchronization Floor. Only one active DAT per domain is permitted. No activation may proceed during a `governance:freeze-candidate` state.
+
+> **Violation → Level 4 Constitutional Breach.**
+
+### 2. Phase Synchronization Enforcement
+
+The AGVE must validate that no structure advances to Phase N unless all downward dependencies are at a minimum of Phase N. No upward override of lower-layer invariants is permitted. No phase regression is allowed without a ratified rollback protocol.
+
+> **Violation → Level 3 or Level 4 depending on severity.**
+
+### 3. Cross-Domain Activation Isolation
+
+The AGVE must detect any structure activated outside its canonical domain, any cross-domain dependency contamination, and any activation of a domain whose dependencies are not pre-generated.
+
+> **Violation → Level 4 Constitutional Breach.**
+
+### 4. Freeze State Enforcement
+
+If any Level 4 breach exists, no structure may transition state, no phase advancement is allowed, no runtime adapter binding is permitted, and no federation patch may be applied.
+
+> **Any violation → Level 4 breach escalation.**
+
+### 5. Runtime Binding Validation
+
+The AGVE must verify that no runtime adapter binding exists for a structure in `state:dormant`, that no adapter binding occurs without activation, and that no infrastructure binding bypasses Runtime Plane discipline.
+
+> **Violation → Level 4 Constitutional Breach.**
+
+### 6. Entitlement Activation Compliance
+
+The AGVE must validate that feature toggles align with the entitlement model, that no module is activated without entitlement eligibility, and that enterprise extension injection complies with module activation governance.
+
+> **Violation → Level 3 or Level 4.**
+
+### 7. Vertical Stack Completion Check
+
+Before any activation, the AGVE must validate that all vertical stack structures exist, that all are in `state:dormant` prior to activation, that no downward dependencies are missing, and that the tracker reflects 100% vertical stack completeness.
+
+> **Violation → Level 4 Constitutional Breach.**
+
+### 8. State Transition Audit Trail
+
+The AGVE must verify that all state transitions are recorded, that activation transitions are logged, that no silent label changes occur, and that no direct mutation from `state:dormant` to `state:in-progress` occurs without a formal activation event.
+
+> **Violation → Level 3 or Level 4.**
+
+---
+
+## SECTION XII — Hard Stop
 
 This document authorizes **governance definition only**.
 
@@ -116,7 +170,7 @@ It **DOES NOT** authorize:
 
 ---
 
-## SECTION X — Ratification Statement
+## SECTION XIII — Ratification Statement
 
 | | |
 |---|---|
