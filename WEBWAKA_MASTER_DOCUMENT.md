@@ -260,3 +260,30 @@ The Dual-Invariant Constitutional Model is now in effect. The biological and run
 655 advisory appendix issues are permanently excluded from structural mathematics. Governed by the Cognitive Appendix Standard in `CSRE-01_DUAL_INVARIANT_CONSTITUTION.md`.
 
 **Constitutional Reference:** `dependency-graph/CSRE-01_DUAL_INVARIANT_CONSTITUTION.md`
+
+
+---
+
+## SECTION X — PCAM-01 Platform Composition & Activation Model (2026-02-22)
+
+This section records the formal adoption of the Platform Composition & Activation Model (PCAM-01).
+
+### Platform Composition Principles
+
+A **Platform** is a deployable, runtime-bindable composition of canonical structures. Platforms do not create new structures; they compose existing canonical units via a `PlatformBlueprint`.
+
+### Four-Level Feature Activation Model
+
+1. Structure Exists (canonical)
+2. Organ Activated (platform blueprint)
+3. Feature Entitled (subscription tier)
+4. Feature Enabled (runtime flag)
+
+### Deployment Modes
+
+- **SaaS:** Multi-tenant runtime with shared adapters.
+- **Enterprise:** Dedicated runtime instance with dedicated infrastructure.
+
+Capability layers remain identical in both modes.
+
+**Constitutional Reference:** `dependency-graph/PCAM-01_PLATFORM_COMPOSITION_AND_ACTIVATION_MODEL.md`
