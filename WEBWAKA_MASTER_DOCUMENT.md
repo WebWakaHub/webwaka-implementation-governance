@@ -178,3 +178,43 @@ This Master Document consolidates and references the following 24 canonical gove
 22. `VERTICAL_DOMAIN_ACTIVATION_MODEL.md`
 23. `AUTOMATED_GOVERNANCE_VALIDATION_ENGINE_MODEL.md`
 24. `AGVE_EXECUTION_AND_CERTIFICATION_PROTOCOL.md`
+
+---
+
+## SECTION VIII — GAD-01 Organelle Canonical Expansion Amendment (2026-02-22)
+
+**Amendment Authority:** Founder (webwaka007)
+**Amendment Date:** 2026-02-22
+**Reference:** `dependency-graph/ORGANELLE_CANONICAL_EXPANSION_AMENDMENT_PROTOCOL.md`
+
+A post-certification audit (FARA-02) identified 4 AI-native organelle structures in `webwaka-organelle-universe` that were not present in the canonical governance registry. The Founder has authorized their formal ratification under GAD-01. The following amendments are hereby declared:
+
+### 8.1 Canonical Layer Code Registry Amendment
+
+The `ORGL` layer code is amended to recognize the `ORGN-` prefix as a valid, specialized prefix for AI-native organelles.
+
+| Governance Layer Code | Layer | Structural Prefixes | GitHub Label |
+|---|---|---|---|
+| `ORGL` | Organelle | `ORG-` (standard), `ORGN-` (AI-native) | `layer:organelle` |
+
+### 8.2 Canonical Structure Registry Amendment
+
+The Organelle count in Section IV is amended from 18 to 22.
+
+- **Organelle (22):** 18 standard `ORG-` + 4 AI-native `ORGN-`. See `doctrine/ORGANELLE_IMPLEMENTATION_STANDARD.md` and `dependency-graph/ORGANELLE_CANONICAL_EXPANSION_AMENDMENT_PROTOCOL.md`.
+
+### 8.3 AGVE Structural Validation Amendment
+
+The AGVE structural invariant for the Organelle Layer is amended:
+
+| Validation Domain | Previous Invariant | Amended Invariant |
+|---|---|---|
+| Organelle Layer | 18 × 29 = 522 | **22 × 29 = 638** |
+
+The global stack invariant (128 structures / 3,712 issues) is unchanged. The 4 AI-native organelles are tracked as an addendum to the Organelle Layer.
+
+### 8.4 Amended Document Registry
+
+This amendment adds one new canonical governance document:
+
+25. `dependency-graph/ORGANELLE_CANONICAL_EXPANSION_AMENDMENT_PROTOCOL.md`
