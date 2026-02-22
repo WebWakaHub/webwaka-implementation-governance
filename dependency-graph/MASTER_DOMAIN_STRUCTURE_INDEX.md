@@ -165,3 +165,25 @@ The following 10 AI-native structures are hereby declared canonical:
 655 advisory appendix issues exist as an overlay fabric and are permanently excluded from structural mathematics. See `CSRE-01_DUAL_INVARIANT_CONSTITUTION.md` for the full Cognitive Appendix Standard.
 
 **Constitutional Reference:** `dependency-graph/CSRE-01_DUAL_INVARIANT_CONSTITUTION.md`
+
+
+---
+
+## PCAM-01 Amendment — Platform Composition Governance (2026-02-22)
+
+The Platform Composition & Activation Model (PCAM-01) has been ratified. This amendment registers PCAM-01 as a canonical governance document within the structural index.
+
+### Platform Composition Governance
+
+| Governance Document | Scope |
+| :--- | :--- |
+| `PCAM-01_PLATFORM_COMPOSITION_AND_ACTIVATION_MODEL.md` | Platform composition, feature governance, runtime binding discipline |
+
+### Key Invariants Established by PCAM-01
+
+- Platforms compose canonical structures; they do not create them.
+- All platform activation follows a seven-step sequencing protocol.
+- Features are governed by a Four-Level Activation Model.
+- The `138 × 29` biological and `18 × 29` runtime invariants are immutable during composition.
+
+**Constitutional Reference:** `dependency-graph/PCAM-01_PLATFORM_COMPOSITION_AND_ACTIVATION_MODEL.md`
