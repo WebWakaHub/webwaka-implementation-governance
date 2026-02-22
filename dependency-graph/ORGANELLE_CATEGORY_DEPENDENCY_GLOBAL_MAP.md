@@ -1,6 +1,6 @@
 # ORGANELLE_CATEGORY_DEPENDENCY_GLOBAL_MAP.md
 
-This document defines the global dependency graph across all 18 canonical Organelle categories.
+This document defines the global dependency graph across all 22 canonical Organelle categories.
 
 No Organelle, Cell, Tissue, Organ, System, or Domain Structure Map may define category dependencies outside this graph.
 
@@ -39,6 +39,7 @@ No Organelle, Cell, Tissue, Organ, System, or Domain Structure Map may define ca
 | LG | Logging & Auditing |
 | IN | Instrumentation |
 | EI | External Integration |
+| **AI** | **AI-Native & Cognitive Fabric** |
 
 ---
 
@@ -64,6 +65,7 @@ No Organelle, Cell, Tissue, Organ, System, or Domain Structure Map may define ca
 | **LG** | IA, DP, OD | All except IA, DP, OD |
 | **IN** | DP, CI | All except DP, CI |
 | **EI** | CI, ST, IA | All except CI, ST, IA |
+| **AI** | IA, DP, EM, LG | All except IA, DP, EM, LG |
 
 ---
 
@@ -76,6 +78,7 @@ No Organelle, Cell, Tissue, Organ, System, or Domain Structure Map may define ca
 | **3. Policy & Governance** | CP, ST, RG, FV, CM |
 | **4. Integration & Externalization** | CI, EI, EM |
 | **5. Observability & Feedback** | TS, LG, IN |
+| **6. AI-Native & Cognitive Fabric** | AI |
 
 ---
 
@@ -101,6 +104,7 @@ No Organelle, Cell, Tissue, Organ, System, or Domain Structure Map may define ca
 | LG | Medium | LG focuses on logging, while TS focuses on telemetry. |
 | IN | Low | N/A |
 | EI | Medium | EI focuses on external integration, while CI focuses on internal communication. |
+| AI | Low | AI is a horizontal, cross-cutting category. Its organelles serve the Cognitive Fabric only. |
 
 ---
 
@@ -118,30 +122,34 @@ This document authorizes structural definition only. It does not authorize issue
 
 ## SECTION VIII — CANONICAL ORGANELLE STRUCTURE REGISTRY
 
-The following table lists the 18 canonical Organelle structures as verified by LSVR-01 (2026-02-20) and reconciled by LSVR-01A (2026-02-20). Repository naming is the authoritative source of truth.
+The following table lists all 22 canonical Organelle structures. The original 18 `ORG-` structures were verified by LSVR-01 (2026-02-20) and reconciled by LSVR-01A (2026-02-20). The 4 AI-native `ORGN-` structures were ratified by GAD-01 (2026-02-22). Repository naming is the authoritative source of truth.
 
-| Structure ID | Category Code | Category Name | Version |
-| :--- | :--- | :--- | :--- |
-| `ORG-CI-MESSAGE_GATEWAY` | CI | Communication & Integration | v0.1.0 |
-| `ORG-CM-COMPOSITION_MODELER` | CM | Composition & Modeling | v0.1.0 |
-| `ORG-CP-POLICY_DEFINITION` | CP | Configuration & Policy | v0.1.0 |
-| `ORG-DP-RECORD_STORE` | DP | Data & Persistence | v0.1.0 |
-| `ORG-EI-EXTERNAL_ADAPTER` | EI | External Integration | v0.1.0 |
-| `ORG-EM-EVENT_DISPATCHER` | EM | Event & Messaging | v0.1.0 |
-| `ORG-ES-SCHEDULER_EXECUTOR` | ES | Execution & Scheduling | v0.1.0 |
-| `ORG-FV-VALIDATION_ENGINE` | FV | Function & Validation | v0.1.0 |
-| `ORG-IA-SUBJECT_REGISTRY` | IA | Identity & Access | v0.1.0 |
-| `ORG-IN-INSTRUMENTATION_PROBE` | IN | Instrumentation | v0.1.0 |
-| `ORG-LG-AUDIT_LOGGER` | LG | Logging & Auditing | v0.1.0 |
-| `ORG-OD-DISCOVERY_REGISTRY` | OD | Observation & Discovery | v0.1.0 |
-| `ORG-RA-RESOURCE_ALLOCATOR` | RA | Resource & Asset | v0.1.0 |
-| `ORG-RG-GOVERNANCE_REGISTRY` | RG | Registry & Governance | v0.1.0 |
-| `ORG-ST-TRUST_ASSERTION` | ST | Security & Trust | v0.1.0 |
-| `ORG-TB-BOUNDARY_CONTEXT` | TB | Tenancy & Boundary | v0.1.0 |
-| `ORG-TS-TELEMETRY_COLLECTOR` | TS | Telemetry & Signals | v0.1.0 |
-| `ORG-WO-WORKFLOW_ORCHESTRATOR` | WO | Workflow & Orchestration | v0.1.0 |
+| Structure ID | Category Code | Category Name | Prefix | Version |
+| :--- | :--- | :--- | :--- | :--- |
+| `ORG-CI-MESSAGE_GATEWAY` | CI | Communication & Integration | `ORG-` | v0.1.0 |
+| `ORG-CM-COMPOSITION_MODELER` | CM | Composition & Modeling | `ORG-` | v0.1.0 |
+| `ORG-CP-POLICY_DEFINITION` | CP | Configuration & Policy | `ORG-` | v0.1.0 |
+| `ORG-DP-RECORD_STORE` | DP | Data & Persistence | `ORG-` | v0.1.0 |
+| `ORG-EI-EXTERNAL_ADAPTER` | EI | External Integration | `ORG-` | v0.1.0 |
+| `ORG-EM-EVENT_DISPATCHER` | EM | Event & Messaging | `ORG-` | v0.1.0 |
+| `ORG-ES-SCHEDULER_EXECUTOR` | ES | Execution & Scheduling | `ORG-` | v0.1.0 |
+| `ORG-FV-VALIDATION_ENGINE` | FV | Function & Validation | `ORG-` | v0.1.0 |
+| `ORG-IA-SUBJECT_REGISTRY` | IA | Identity & Access | `ORG-` | v0.1.0 |
+| `ORG-IN-INSTRUMENTATION_PROBE` | IN | Instrumentation | `ORG-` | v0.1.0 |
+| `ORG-LG-AUDIT_LOGGER` | LG | Logging & Auditing | `ORG-` | v0.1.0 |
+| `ORG-OD-DISCOVERY_REGISTRY` | OD | Observation & Discovery | `ORG-` | v0.1.0 |
+| `ORG-RA-RESOURCE_ALLOCATOR` | RA | Resource & Asset | `ORG-` | v0.1.0 |
+| `ORG-RG-GOVERNANCE_REGISTRY` | RG | Registry & Governance | `ORG-` | v0.1.0 |
+| `ORG-ST-TRUST_ASSERTION` | ST | Security & Trust | `ORG-` | v0.1.0 |
+| `ORG-TB-BOUNDARY_CONTEXT` | TB | Tenancy & Boundary | `ORG-` | v0.1.0 |
+| `ORG-TS-TELEMETRY_COLLECTOR` | TS | Telemetry & Signals | `ORG-` | v0.1.0 |
+| `ORG-WO-WORKFLOW_ORCHESTRATOR` | WO | Workflow & Orchestration | `ORG-` | v0.1.0 |
+| `ORGN-AI-AUDIT_EMITTER` | AI | AI-Native & Cognitive Fabric | `ORGN-` | v0.1.0 |
+| `ORGN-AI-COGNITIVE_PORT` | AI | AI-Native & Cognitive Fabric | `ORGN-` | v0.1.0 |
+| `ORGN-AI-PROMPT_ASSEMBLER` | AI | AI-Native & Cognitive Fabric | `ORGN-` | v0.1.0 |
+| `ORGN-AI-RESULT_VALIDATOR` | AI | AI-Native & Cognitive Fabric | `ORGN-` | v0.1.0 |
 
-**Total:** 18 canonical structures. All verified COMPLETE (29 issues each) as of LSVR-01 (2026-02-20).
+**Total:** 22 canonical structures (18 `ORG-` + 4 `ORGN-`). All verified COMPLETE (29 issues each). Mathematical invariant: 22 × 29 = 638.
 
 ---
 
@@ -152,6 +160,6 @@ The following table lists the 18 canonical Organelle structures as verified by L
 | **Status** | RATIFIED |
 | **Authority** | Founder |
 | **Date** | 2026-02-19 |
-| **Last Updated** | 2026-02-20 (LSVR-01A Reconciliation) |
+| **Last Updated** | 2026-02-22 (GAD-01: Canonical Expansion Amendment) |
 
 This document is constitutionally binding.
