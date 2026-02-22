@@ -148,3 +148,24 @@ This amendment supersedes the GAD-01 organelle-only amendment and formally rebas
 **Status:** CERTIFIED — Dual-Invariant Model Active
 **Authority:** Founder
 **Constitutional Reference:** `dependency-graph/CSRE-01_DUAL_INVARIANT_CONSTITUTION.md`
+
+
+---
+
+## 9. PCAM-01 Amendment — Platform Composition Governance Registration (2026-02-22)
+
+This amendment registers the Platform Composition & Activation Model (PCAM-01) within the certification record. PCAM-01 is a governance-only document that does not alter the certified structural baselines.
+
+### Certification Impact
+
+| Metric | Value |
+| :--- | :--- |
+| Total Canonical Structures | **156** (unchanged) |
+| Total Canonical Issues | **4,524** (unchanged) |
+| Cognitive Appendix Issues | **655** (unchanged, excluded from invariant) |
+| Invariant Compliance | **PASS** (unchanged) |
+| New Governance Documents Registered | **1** (PCAM-01) |
+
+**Status:** CERTIFIED — Dual-Invariant Model Active, Platform Composition Governance Established
+**Authority:** Founder
+**Constitutional Reference:** `dependency-graph/PCAM-01_PLATFORM_COMPOSITION_AND_ACTIVATION_MODEL.md`
