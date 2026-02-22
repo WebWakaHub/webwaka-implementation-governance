@@ -218,3 +218,45 @@ The global stack invariant (128 structures / 3,712 issues) is unchanged. The 4 A
 This amendment adds one new canonical governance document:
 
 25. `dependency-graph/ORGANELLE_CANONICAL_EXPANSION_AMENDMENT_PROTOCOL.md`
+
+
+---
+
+## SECTION IX — CSRE-01 Dual-Invariant Constitutional Rebase (2026-02-22)
+
+This section formally records the Canonical Structural Rebase Event (CSRE-01) and supersedes all prior baseline declarations in this document.
+
+### Amended Structural Composition
+
+The Dual-Invariant Constitutional Model is now in effect. The biological and runtime baselines are governed by separate invariants.
+
+**Section 4.1 is amended to read:**
+
+#### 4.1 Biological Layers (138 Structures)
+
+- **Organelle (22):** 18 standard `ORG-` + 4 AI-native `ORGN-`
+- **Cell (16):** 13 standard `CEL-` + 3 AI-native `CEL-AI-`
+- **Tissue (10):** 8 standard `TIS-` + 2 AI-native `TIS-AI-`
+- **Organ (56):** All standard `ORGX-`
+- **System (19):** 18 standard `SYS-` + 1 AI-native `SYSX-AI-`
+- **Organism (1):** `ORG-WEBWAKA-PLATFORM-v0.1.0`
+
+**Biological Invariant:** `138 × 29 = 4,002 canonical issues`
+
+**Section 4.2 is amended to read:**
+
+#### 4.2 Runtime Layer (18 Structures)
+
+- **Runtime (18):** 14 standard `RUNTIME-` + 4 AI-native `RUNTIME-ADAPTER-AI-`
+
+**Runtime Invariant:** `18 × 29 = 522 canonical issues`
+
+### Total Structural Invariant
+
+`4,002 (Biological) + 522 (Runtime) = 4,524 canonical issues`
+
+### Cognitive Appendix Layer
+
+655 advisory appendix issues are permanently excluded from structural mathematics. Governed by the Cognitive Appendix Standard in `CSRE-01_DUAL_INVARIANT_CONSTITUTION.md`.
+
+**Constitutional Reference:** `dependency-graph/CSRE-01_DUAL_INVARIANT_CONSTITUTION.md`
