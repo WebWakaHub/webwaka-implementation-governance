@@ -1119,3 +1119,40 @@ All Organs must comply with the following domain boundary rules:
 | **Authority** | Founder |
 
 *This summary was regenerated from live GitHub state. It supersedes all prior tracker summary entries.*
+
+
+---
+
+## CSRE-01 Amendment — Dual-Invariant Rebase (2026-02-22)
+
+This amendment formally updates the Master Implementation Tracker to reflect the Dual-Invariant Constitutional Model adopted by CSRE-01.
+
+### Amended Live State Summary
+
+| Metric | Old Value | New Value |
+| :--- | :--- | :--- |
+| Total Biological Structures | 132 | **138** |
+| Total Runtime Structures | 14 | **18** |
+| Total Canonical Structures | 146 | **156** |
+| Total Biological Issues | 3,828 | **4,002** |
+| Total Runtime Issues | 406 | **522** |
+| **Total Canonical Issues** | **4,234** | **4,524** |
+| Cognitive Appendix Issues (Excluded) | 0 | 655 |
+| **Mathematical Invariant** | 146 × 29 = 4,234 | **Bio: 138×29=4,002 + Runtime: 18×29=522 = 4,524** |
+
+### Ratified AI-Native Structures
+
+| Structure | Layer | Issues | Status |
+| :--- | :--- | :--- | :--- |
+| `CEL-AI-COGNITIVE_CELL-v0.1.0` | Cell | 29 | Canonical — Dormant |
+| `CEL-AI-INFERENCE_CELL-v0.1.0` | Cell | 29 | Canonical — Dormant |
+| `CEL-AI-STREAMING_CELL-v0.1.0` | Cell | 29 | Canonical — Dormant |
+| `TIS-AI-COGNITIVE_TISSUE-v0.1.0` | Tissue | 29 | Canonical — Dormant |
+| `TIS-AI-ENTITLEMENT_TISSUE-v0.1.0` | Tissue | 29 | Canonical — Dormant |
+| `SYSX-AI-COGNITIVE_FABRIC-v0.1.0` | System | 29 | Canonical — Dormant |
+| `RUNTIME-ADAPTER-AI-v0.1.0` | Runtime | 29 | Canonical — Dormant |
+| `RUNTIME-ADAPTER-AI-CACHE-v0.1.0` | Runtime | 29 | Canonical — Dormant |
+| `RUNTIME-ADAPTER-AI-KEYSTORE-v0.1.0` | Runtime | 29 | Canonical — Dormant |
+| `RUNTIME-ADAPTER-AI-ROUTER-v0.1.0` | Runtime | 29 | Canonical — Dormant |
+
+**Constitutional Reference:** `dependency-graph/CSRE-01_DUAL_INVARIANT_CONSTITUTION.md`
