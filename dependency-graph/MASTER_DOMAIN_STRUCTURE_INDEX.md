@@ -116,3 +116,20 @@ This document is constitutionally binding.
 ## SECTION IX — PRIMITIVE INTEGRATION DISCIPLINE COMPLIANCE
 
 All domains must comply with the primitive integration discipline defined in `ORGANELLE_CATEGORY_DEPENDENCY_GLOBAL_MAP.md`. This includes the mandatory use of CI, EI, and IN categories for their designated purposes. Domain Activation Token issuance requires full integration coverage completeness, and Pre-Generation completeness includes the presence of CI, EI, and IN archetypes.
+
+---
+
+## SECTION X — GAD-01 Organelle Canonical Expansion Amendment (2026-02-22)
+
+**Amendment Authority:** Founder (webwaka007)
+**Amendment Date:** 2026-02-22
+**Reference:** GAD-01 — ORGANELLE_CANONICAL_EXPANSION_AMENDMENT_PROTOCOL.md
+
+The canonical organelle count has been amended from 18 to 22 to include 4 AI-native organelle structures ratified under GAD-01. The `AI` category (AI-Native & Cognitive Fabric) is now a recognized canonical organelle category. All domain structure maps and vertical stack pre-generation protocols must account for the full 22-organelle canonical set.
+
+| Amendment | Previous Value | Amended Value |
+|---|---|---|
+| Canonical Organelle Count | 18 | **22** |
+| Canonical Organelle Issues | 522 | **638** |
+| Canonical Organelle Categories | 18 | **19** (18 standard + 1 AI) |
+| Mathematical Invariant | 18 × 29 = 522 | **22 × 29 = 638** |
