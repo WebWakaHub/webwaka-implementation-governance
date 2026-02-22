@@ -518,3 +518,46 @@ Following the completion of LSVR-01 (Organelle Layer Verification), a naming dri
 | `ORG-TB-BOUNDARY_CONTEXT-v0.1.0` | 29 | `state:dormant` |
 | `ORG-TS-TELEMETRY_COLLECTOR-v0.1.0` | 29 | `state:dormant` |
 | `ORG-WO-WORKFLOW_ORCHESTRATOR-v0.1.0` | 29 | `state:dormant` |
+
+---
+
+## XIII. GAD-01 Canonical Expansion Amendment — 2026-02-22
+
+**Amendment Authority:** Founder (webwaka007)
+**Amendment Date:** 2026-02-22 (UTC)
+**Reference:** GAD-01 — ORGANELLE_CANONICAL_EXPANSION_AMENDMENT_PROTOCOL.md
+
+Following the FARA-02 audit, 4 AI-native organelle structures were identified in `webwaka-organelle-universe` that were not present in the canonical governance registry. The Founder has authorized their formal ratification. The canonical organelle count is hereby amended from 18 to 22.
+
+**Canonical Structure Registry — Amended (GAD-01)**
+
+*This registry is constitutionally binding. Updated: 2026-02-22 (GAD-01).*
+
+**Total Organelle Structures:** 22 (18 standard `ORG-` + 4 AI-native `ORGN-`)
+
+| Structure ID | Category | Issues | State |
+|---|---|---:|---|
+| `ORG-CI-MESSAGE_GATEWAY-v0.1.0` | CI | 29 | `state:dormant` |
+| `ORG-CM-COMPOSITION_MODELER-v0.1.0` | CM | 29 | `state:dormant` |
+| `ORG-CP-POLICY_DEFINITION-v0.1.0` | CP | 29 | `state:dormant` |
+| `ORG-DP-RECORD_STORE-v0.1.0` | DP | 29 | `state:dormant` |
+| `ORG-EI-EXTERNAL_ADAPTER-v0.1.0` | EI | 29 | `state:dormant` |
+| `ORG-EM-EVENT_DISPATCHER-v0.1.0` | EM | 29 | `state:dormant` |
+| `ORG-ES-SCHEDULER_EXECUTOR-v0.1.0` | ES | 29 | `state:dormant` |
+| `ORG-FV-VALIDATION_ENGINE-v0.1.0` | FV | 29 | `state:dormant` |
+| `ORG-IA-SUBJECT_REGISTRY-v0.1.0` | IA | 29 | `state:dormant` |
+| `ORG-IN-INSTRUMENTATION_PROBE-v0.1.0` | IN | 29 | `state:dormant` |
+| `ORG-LG-AUDIT_LOGGER-v0.1.0` | LG | 29 | `state:dormant` |
+| `ORG-OD-DISCOVERY_REGISTRY-v0.1.0` | OD | 29 | `state:dormant` |
+| `ORG-RA-RESOURCE_ALLOCATOR-v0.1.0` | RA | 29 | `state:dormant` |
+| `ORG-RG-GOVERNANCE_REGISTRY-v0.1.0` | RG | 29 | `state:dormant` |
+| `ORG-ST-TRUST_ASSERTION-v0.1.0` | ST | 29 | `state:dormant` |
+| `ORG-TB-BOUNDARY_CONTEXT-v0.1.0` | TB | 29 | `state:dormant` |
+| `ORG-TS-TELEMETRY_COLLECTOR-v0.1.0` | TS | 29 | `state:dormant` |
+| `ORG-WO-WORKFLOW_ORCHESTRATOR-v0.1.0` | WO | 29 | `state:dormant` |
+| `ORGN-AI-AUDIT_EMITTER-v0.1.0` | AI | 29 | `state:dormant` |
+| `ORGN-AI-COGNITIVE_PORT-v0.1.0` | AI | 29 | `state:dormant` |
+| `ORGN-AI-PROMPT_ASSEMBLER-v0.1.0` | AI | 29 | `state:dormant` |
+| `ORGN-AI-RESULT_VALIDATOR-v0.1.0` | AI | 29 | `state:dormant` |
+
+**Mathematical Invariant:** 22 × 29 = 638 total canonical organelle issues.
