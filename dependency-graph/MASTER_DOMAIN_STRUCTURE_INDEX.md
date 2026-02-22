@@ -133,3 +133,35 @@ The canonical organelle count has been amended from 18 to 22 to include 4 AI-nat
 | Canonical Organelle Issues | 522 | **638** |
 | Canonical Organelle Categories | 18 | **19** (18 standard + 1 AI) |
 | Mathematical Invariant | 18 × 29 = 522 | **22 × 29 = 638** |
+
+
+---
+
+## CSRE-01 Amendment — Dual-Invariant Constitutional Rebase (2026-02-22)
+
+This amendment formally adopts the Dual-Invariant Constitutional Model as ratified by CSRE-01.
+
+### Ratified AI-Native Canonical Structures
+
+The following 10 AI-native structures are hereby declared canonical:
+
+**Biological (6):** `CEL-AI-COGNITIVE_CELL-v0.1.0`, `CEL-AI-INFERENCE_CELL-v0.1.0`, `CEL-AI-STREAMING_CELL-v0.1.0`, `TIS-AI-COGNITIVE_TISSUE-v0.1.0`, `TIS-AI-ENTITLEMENT_TISSUE-v0.1.0`, `SYSX-AI-COGNITIVE_FABRIC-v0.1.0`
+
+**Runtime (4):** `RUNTIME-ADAPTER-AI-v0.1.0`, `RUNTIME-ADAPTER-AI-CACHE-v0.1.0`, `RUNTIME-ADAPTER-AI-KEYSTORE-v0.1.0`, `RUNTIME-ADAPTER-AI-ROUTER-v0.1.0`
+
+### Amended Baselines
+
+| Baseline | Old | New |
+| :--- | :--- | :--- |
+| Biological Structures | 132 | **138** |
+| Biological Issues | 3,828 | **4,002** |
+| Runtime Structures | 14 | **18** |
+| Runtime Issues | 406 | **522** |
+| **Total Canonical Structures** | **146** | **156** |
+| **Total Canonical Issues** | **4,234** | **4,524** |
+
+### Cognitive Appendix Layer (Excluded from Invariant)
+
+655 advisory appendix issues exist as an overlay fabric and are permanently excluded from structural mathematics. See `CSRE-01_DUAL_INVARIANT_CONSTITUTION.md` for the full Cognitive Appendix Standard.
+
+**Constitutional Reference:** `dependency-graph/CSRE-01_DUAL_INVARIANT_CONSTITUTION.md`
