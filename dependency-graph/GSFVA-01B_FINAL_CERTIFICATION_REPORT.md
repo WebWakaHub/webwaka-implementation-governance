@@ -1,8 +1,8 @@
 # GSFVA-01B: Final Certification Report
-
 **Date:** 2026-02-21
 **Certification Status:** CERTIFIED
 **Global Integrity Rating:** **PASS**
+**Last Amended:** 2026-02-22 (GAD-01: Organelle Canonical Expansion Amendment)
 
 ---
 
@@ -86,3 +86,30 @@ All governance documentation is aligned with the canonical repository state.
 The WebWaka stack is hereby declared **Fully Certified**. All biological layers (Organelle through Organism) and the Runtime Plane are structurally complete, mathematically invariant, and governance-aligned.
 
 **Controlled activation may now proceed.**
+
+---
+
+## 7. GAD-01 Amendment — Organelle Canonical Expansion (2026-02-22)
+
+This section formally records the amendment applied by GAD-01 (ORGANELLE_CANONICAL_EXPANSION_AMENDMENT_PROTOCOL.md) on 2026-02-22.
+
+The original certification covered 18 canonical organelles. A post-certification audit (FARA-02) identified 4 additional, fully industrialized AI-native organelle structures (`ORGN-` prefix) in the `webwaka-organelle-universe` repository. These structures were not present in the governance registry at the time of GSFVA-01B certification, constituting a Governance Lag.
+
+The Founder has authorized a canonical expansion. This amendment extends the Organelle Layer certification to include the 4 AI-native organelles.
+
+**Amended Organelle Layer Certification:**
+
+| Metric | Original (GSFVA-01B) | Amendment (GAD-01) |
+|---|---:|---:|
+| Canonical Organelle Structures | 18 | **22** |
+| Canonical Organelle Issues | 522 | **638** |
+| Mathematical Invariant | 18 × 29 = 522 ✓ | **22 × 29 = 638 ✓** |
+
+**Note:** This amendment does not alter the global stack invariant (128 structures / 3,712 issues), which covers the original biological and runtime layers. The 4 AI-native organelles are an addendum to the Organelle Layer registry and are tracked separately under the AI category.
+
+| | |
+|---|---|
+| **Amendment Authority** | Founder (webwaka007) |
+| **Amendment Date** | 2026-02-22 |
+| **Amendment Protocol** | GAD-01 |
+| **Prior Certification Invalidated** | **NO** — Extended only |
