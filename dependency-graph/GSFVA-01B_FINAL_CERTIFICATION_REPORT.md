@@ -113,3 +113,38 @@ The Founder has authorized a canonical expansion. This amendment extends the Org
 | **Amendment Date** | 2026-02-22 |
 | **Amendment Protocol** | GAD-01 |
 | **Prior Certification Invalidated** | **NO** — Extended only |
+
+
+---
+
+## 8. CSRE-01 Amendment — Dual-Invariant Certification Rebase (2026-02-22)
+
+This amendment supersedes the GAD-01 organelle-only amendment and formally rebases the full certification under the Dual-Invariant Constitutional Model.
+
+### Amended Layer Certification
+
+| Layer | Repository | Old Certified | New Certified | Delta |
+| :--- | :--- | :--- | :--- | :--- |
+| Organelle | `webwaka-organelle-universe` | 22/22 (638 issues) | 22/22 (638 issues) | No change |
+| Cell | `webwaka-cell-universe` | 13/13 (377 issues) | **16/16 (464 issues)** | +3 AI cells |
+| Tissue | `webwaka-tissue-universe` | 8/8 (232 issues) | **10/10 (290 issues)** | +2 AI tissues |
+| Organ | `webwaka-organ-universe` | 56/56 (1,624 issues) | 56/56 (1,624 issues) | No change |
+| System | `webwaka-system-universe` | 18/18 (522 issues) | **19/19 (551 issues)** | +1 AI system |
+| Organism | `webwaka-organism-universe` | 1/1 (29 issues) | 1/1 (29 issues) | No change |
+| Runtime | `webwaka-runtime-universe` | 14/14 (406 issues) | **18/18 (522 issues)** | +4 AI runtime |
+
+### New Certification Totals
+
+| Metric | Old Value | New Value |
+| :--- | :--- | :--- |
+| Total Biological Structures | 132 | **138** |
+| Total Runtime Structures | 14 | **18** |
+| Total Canonical Structures | 146 | **156** |
+| Total Biological Issues | 3,828 | **4,002** |
+| Total Runtime Issues | 406 | **522** |
+| **Total Canonical Issues** | **4,234** | **4,524** |
+| Cognitive Appendix Issues (Excluded) | 0 | 655 |
+
+**Status:** CERTIFIED — Dual-Invariant Model Active
+**Authority:** Founder
+**Constitutional Reference:** `dependency-graph/CSRE-01_DUAL_INVARIANT_CONSTITUTION.md`
