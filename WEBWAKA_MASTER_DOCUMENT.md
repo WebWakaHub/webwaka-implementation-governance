@@ -24,6 +24,8 @@ The WebWaka stack is **FULLY CERTIFIED** as of 2026-02-21.
 
 This certification confirms that the full stack of 128 canonical structures and 3,712 issues is structurally sound, mathematically verified, and governance-aligned. Controlled activation is authorized.
 
+> **CSRE-01A Amendment (2026-02-24):** The canonical structure count has been formally amended from 128 to **142** following the ratification of the AI Cognitive Fabric expansion (+14 AI-native structures). The 128-structure baseline remains the historical certification reference. See `CSRE-01_CANONICAL_STRUCTURE_RATIFICATION_CONSTITUTION_v2.0.0.md`.
+
 **Supporting Audits:**
 - `CSRP-01`: Foundational Structural Reality Report
 - `LSVR-01` to `LSVR-06`: Per-Layer Structural Verification & Repair
@@ -102,7 +104,7 @@ The **Automated Governance Validation Engine (AGVE)**, also known as the **Auton
 
 | Validation Domain | Scope |
 |---|---|
-| Structural Validation | 128 structures × 29 issues = 3,712 invariant |
+| Structural Validation | 142 structures (128 baseline + 14 AI-native) — see CSRE-01A |
 | Governance Corpus Validation | 22 required documents + Master Document synchronization |
 | Runtime Structure Validation | 14 runtime structures × 29 issues |
 | Federation Compliance Validation | Version compliance, entitlement boundaries |
